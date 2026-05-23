@@ -21,6 +21,8 @@ All solutions are written in Python, adhering to standard naming conventions, vi
 | 2 | Climbing Stairs | Dynamic Programming | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/climbing-stairs.py) |
 | 3 | House Robber | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/house-robber.py) |
 | 4 | Maximum Depth of Binary Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/maximum-depth-of-binary-tree.py) |
+| 5 | Symmetric Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/symmetric-tree.py) |
+| 6 | Longest Palindromic Substring | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/longest-palindromic-substring.py) |
 
 
 *This repository is automatically updated after every daily challenge solves.*
