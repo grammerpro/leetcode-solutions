@@ -23,6 +23,8 @@ All solutions are written in Python, adhering to standard naming conventions, vi
 | 4 | Maximum Depth of Binary Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/maximum-depth-of-binary-tree.py) |
 | 5 | Symmetric Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/symmetric-tree.py) |
 | 6 | Longest Palindromic Substring | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/longest-palindromic-substring.py) |
+| 7 | Subtree of Another Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/subtree-of-another-tree.py) |
+| 8 | Same Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/same-tree.py) |
 
 
 *This repository is automatically updated after every daily challenge solves.*

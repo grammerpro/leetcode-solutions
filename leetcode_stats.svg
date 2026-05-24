@@ -24,12 +24,12 @@
     <!-- Card 1: Solved -->
     <rect x="30" y="100" width="230" height="100" class="card-bg"/>
     <text x="50" y="130" class="subtitle">TOTAL SOLVED</text>
-    <text x="50" y="175" class="stat-val" fill="#3B82F6">6</text>
+    <text x="50" y="175" class="stat-val" fill="#3B82F6">8</text>
     
     <!-- Card 2: Streak -->
     <rect x="285" y="100" width="230" height="100" class="card-bg"/>
     <text x="305" y="130" class="subtitle">CURRENT STREAK</text>
-    <text x="305" y="175" class="stat-val" fill="#EC4899" style="--glow-color: rgba(236,72,153,0.3);">2 Days</text>
+    <text x="305" y="175" class="stat-val" fill="#EC4899" style="--glow-color: rgba(236,72,153,0.3);">3 Days</text>
     
     <!-- Card 3: Completion -->
     <rect x="540" y="100" width="230" height="100" class="card-bg"/>
@@ -43,14 +43,14 @@
     <!-- Easy Bar -->
     <text x="30" y="278" class="label">Easy</text>
     <rect x="110" y="266" width="200" height="14" rx="7" fill="#1F2937"/>
-    <rect x="110" y="266" width="133" height="14" rx="7" fill="#10B981"/>
-    <text x="325" y="278" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#10B981">4 (66%)</text>
+    <rect x="110" y="266" width="150" height="14" rx="7" fill="#10B981"/>
+    <text x="325" y="278" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#10B981">6 (75%)</text>
     
     <!-- Medium Bar -->
     <text x="30" y="323" class="label">Medium</text>
     <rect x="110" y="311" width="200" height="14" rx="7" fill="#1F2937"/>
-    <rect x="110" y="311" width="66" height="14" rx="7" fill="#F59E0B"/>
-    <text x="325" y="323" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#F59E0B">2 (33%)</text>
+    <rect x="110" y="311" width="50" height="14" rx="7" fill="#F59E0B"/>
+    <text x="325" y="323" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#F59E0B">2 (25%)</text>
     
     <!-- Dynamic Progress Ring on the Right -->
     <circle cx="110" cy="380" r="8" fill="#10B981"/>
@@ -66,18 +66,18 @@
     <line x1="475" y1="260" x2="475" y2="390" stroke="#1F2937" stroke-width="2"/>
     
     <!-- Node 0 -->
-    <circle cx="475" cy="275" r="6" fill="#F59E0B" stroke="#0B0F19" stroke-width="2"/>
-    <text x="495" y="270" class="timeline-title">Longest Palindromic Substring</text>
-    <text x="495" y="287" class="timeline-desc">Medium • <tspan class="timeline-date">May 23, 16:34</tspan></text>
+    <circle cx="475" cy="275" r="6" fill="#10B981" stroke="#0B0F19" stroke-width="2"/>
+    <text x="495" y="270" class="timeline-title">Same Tree</text>
+    <text x="495" y="287" class="timeline-desc">Easy • <tspan class="timeline-date">May 24, 17:20</tspan></text>
         
     <!-- Node 1 -->
     <circle cx="475" cy="330" r="6" fill="#10B981" stroke="#0B0F19" stroke-width="2"/>
-    <text x="495" y="325" class="timeline-title">Symmetric Tree</text>
-    <text x="495" y="342" class="timeline-desc">Easy • <tspan class="timeline-date">May 23, 16:22</tspan></text>
+    <text x="495" y="325" class="timeline-title">Subtree of Another Tree</text>
+    <text x="495" y="342" class="timeline-desc">Easy • <tspan class="timeline-date">May 24, 17:07</tspan></text>
         
     <!-- Node 2 -->
-    <circle cx="475" cy="385" r="6" fill="#10B981" stroke="#0B0F19" stroke-width="2"/>
-    <text x="495" y="380" class="timeline-title">Maximum Depth of Binary Tree</text>
-    <text x="495" y="397" class="timeline-desc">Easy • <tspan class="timeline-date">May 22, 08:18</tspan></text>
+    <circle cx="475" cy="385" r="6" fill="#F59E0B" stroke="#0B0F19" stroke-width="2"/>
+    <text x="495" y="380" class="timeline-title">Longest Palindromic Substring</text>
+    <text x="495" y="397" class="timeline-desc">Medium • <tspan class="timeline-date">May 23, 16:34</tspan></text>
         
 </svg>
