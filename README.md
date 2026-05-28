@@ -25,6 +25,8 @@ All solutions are written in Python, adhering to standard naming conventions, vi
 | 6 | Longest Palindromic Substring | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/longest-palindromic-substring.py) |
 | 7 | Subtree of Another Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/subtree-of-another-tree.py) |
 | 8 | Same Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/same-tree.py) |
+| 9 | Unique Paths | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/unique-paths.py) |
+| 10 | Coin Change | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/coin-change.py) |
 
 
 *This repository is automatically updated after every daily challenge solves.*
