@@ -27,6 +27,8 @@ All solutions are written in Python, adhering to standard naming conventions, vi
 | 8 | Same Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/same-tree.py) |
 | 9 | Unique Paths | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/unique-paths.py) |
 | 10 | Coin Change | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/coin-change.py) |
+| 11 | House Robber | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/house-robber.py) |
+| 12 | Invert Binary Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/invert-binary-tree.py) |
 
 
 *This repository is automatically updated after every daily challenge solves.*
