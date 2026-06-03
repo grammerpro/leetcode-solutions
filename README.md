@@ -29,6 +29,8 @@ All solutions are written in Python, adhering to standard naming conventions, vi
 | 10 | Coin Change | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/coin-change.py) |
 | 11 | House Robber | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/house-robber.py) |
 | 12 | Invert Binary Tree | Trees | <font color='#10B981'>**Easy**</font> | [View Solution](./Easy/invert-binary-tree.py) |
+| 13 | Decode Ways | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/decode-ways.py) |
+| 14 | Word Break | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/word-break.py) |
 
 
 *This repository is automatically updated after every daily challenge solves.*
