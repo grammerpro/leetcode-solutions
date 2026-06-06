@@ -32,6 +32,7 @@ All solutions are written in Python, adhering to standard naming conventions, vi
 | 13 | Decode Ways | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/decode-ways.py) |
 | 14 | Word Break | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/word-break.py) |
 | 15 | Binary Tree Level Order Traversal | Trees | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/binary-tree-level-order-traversal.py) |
+| 16 | Minimum Path Sum | Dynamic Programming | <font color='#F59E0B'>**Medium**</font> | [View Solution](./Medium/minimum-path-sum.py) |
 
 
 *This repository is automatically updated after every daily challenge solves.*
