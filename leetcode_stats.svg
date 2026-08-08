@@ -29,7 +29,7 @@
     <!-- Card 2: Streak -->
     <rect x="285" y="100" width="230" height="100" class="card-bg"/>
     <text x="305" y="130" class="subtitle">CURRENT STREAK</text>
-    <text x="305" y="175" class="stat-val" fill="#EC4899" style="--glow-color: rgba(236,72,153,0.3);">2 Days</text>
+    <text x="305" y="175" class="stat-val" fill="#EC4899" style="--glow-color: rgba(236,72,153,0.3);">0 Days</text>
     
     <!-- Card 3: Completion -->
     <rect x="540" y="100" width="230" height="100" class="card-bg"/>
