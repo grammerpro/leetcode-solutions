@@ -1,0 +1,13 @@
+# Problem: Unique Paths
+# Topic: Dynamic Programming
+# Difficulty: Medium
+# Link: https://leetcode.com/problems/unique-paths/
+
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        # DP table approach to achieve O(m * n) time and space
+        dp = [[1] * n for _ in range(m)]
+        for i in range(1, m):
+            for j in range(1, n):
+                dp[i][j] = dp[i-1][j] + dp[i][j-1]
+        return dp[m-1][n-1]
