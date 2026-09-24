@@ -1,6 +1,7 @@
 # Problem: Word Break
-# Topic: Dynamic Programming
+# Topics: Dynamic Programming
 # Difficulty: Medium
+# Evidence: Legacy (unverified)
 # Link: https://leetcode.com/problems/word-break/
 
 class Solution:

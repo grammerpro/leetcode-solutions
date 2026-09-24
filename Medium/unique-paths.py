@@ -1,6 +1,7 @@
 # Problem: Unique Paths
-# Topic: Dynamic Programming
+# Topics: Dynamic Programming
 # Difficulty: Medium
+# Evidence: Legacy (unverified)
 # Link: https://leetcode.com/problems/unique-paths/
 
 class Solution:

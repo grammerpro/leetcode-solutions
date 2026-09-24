@@ -1,6 +1,7 @@
 # Problem: Decode Ways
-# Topic: Dynamic Programming
+# Topics: Dynamic Programming
 # Difficulty: Medium
+# Evidence: Legacy (unverified)
 # Link: https://leetcode.com/problems/decode-ways/
 
 class Solution:

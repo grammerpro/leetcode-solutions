@@ -1,19 +1,19 @@
 # Problem: Invert Binary Tree
-# Topic: Trees
+# Topics: Trees
 # Difficulty: Easy
+# Evidence: Legacy (unverified)
 # Link: https://leetcode.com/problems/invert-binary-tree/
 
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        # Base case: if tree is empty
-        if not root:
+        if root is None:
             return None
-            
-        # Swap left and right children recursively
-        left_inverted = self.invertTree(root.left)
-        right_inverted = self.invertTree(root.right)
-        
-        root.left = right_inverted
-        root.right = left_inverted
-        
+        stack = [root]
+        while stack:
+            node = stack.pop()
+            node.left, node.right = node.right, node.left
+            if node.left is not None:
+                stack.append(node.left)
+            if node.right is not None:
+                stack.append(node.right)
         return root

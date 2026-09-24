@@ -1,6 +1,7 @@
 # Problem: Climbing Stairs
-# Topic: Dynamic Programming
+# Topics: Dynamic Programming
 # Difficulty: Easy
+# Evidence: Legacy (unverified)
 # Link: https://leetcode.com/problems/climbing-stairs/
 
 class Solution:

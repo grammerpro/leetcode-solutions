@@ -1,16 +1,20 @@
 # Problem: Same Tree
-# Topic: Trees
+# Topics: Trees
 # Difficulty: Easy
+# Evidence: Legacy (unverified)
 # Link: https://leetcode.com/problems/same-tree/
 
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-        # Base cases
-        if not p and not q:
-            return True
-        if not p or not q:
-            return False
-        if p.val != q.val:
-            return False
-            
-        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+        stack = [(p, q)]
+        while stack:
+            left, right = stack.pop()
+            if left is None or right is None:
+                if left is not right:
+                    return False
+                continue
+            if left.val != right.val:
+                return False
+            stack.append((left.left, right.left))
+            stack.append((left.right, right.right))
+        return True

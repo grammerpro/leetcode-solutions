@@ -1,17 +1,22 @@
 # Problem: Symmetric Tree
-# Topic: Trees
+# Topics: Trees
 # Difficulty: Easy
+# Evidence: Legacy (unverified)
 # Link: https://leetcode.com/problems/symmetric-tree/
 
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-        if not root:
+        if root is None:
             return True
-        return self.isMirror(root.left, root.right)
-        
-    def isMirror(self, t1: Optional[TreeNode], t2: Optional[TreeNode]) -> bool:
-        if not t1 and not t2:
-            return True
-        if not t1 or not t2:
-            return False
-        return (t1.val == t2.val) and self.isMirror(t1.left, t2.right) and self.isMirror(t1.right, t2.left)
+        stack = [(root.left, root.right)]
+        while stack:
+            left, right = stack.pop()
+            if left is None or right is None:
+                if left is not right:
+                    return False
+                continue
+            if left.val != right.val:
+                return False
+            stack.append((left.left, right.right))
+            stack.append((left.right, right.left))
+        return True

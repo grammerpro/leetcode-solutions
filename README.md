@@ -1,3 +1,58 @@
+<!-- leetcode-progress:start -->
+## Practice progress
+
+![Progress dashboard](leetcode_stats.svg)
+
+**16 unique problems archived** · **1 day practice streak** · **16/30 catalog problems completed**
+
+| Evidence | Problems |
+| :--- | ---: |
+| Legacy (unverified) | 15 |
+| Local tests passed | 1 |
+| LeetCode Accepted | 0 |
+
+Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
+
+### Difficulty & topics
+
+| Difficulty | Problems |
+| :--- | ---: |
+| Easy | 9 |
+| Medium | 7 |
+| Hard | 0 |
+
+| Topic | Problems |
+| :--- | ---: |
+| Trees | 8 |
+| Dynamic Programming | 7 |
+| Arrays | 1 |
+
+### Solution index
+
+| Problem | Difficulty | Topics | Evidence | First completed | Python |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Arrays | Local tests passed | 2026-09-23 | [Source](Easy/best-time-to-buy-and-sell-stock.py) |
+| [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Trees | Legacy (unverified) | 2026-08-24 | [Source](Easy/same-tree.py) |
+| [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | Trees | Legacy (unverified) | 2026-08-24 | [Source](Easy/path-sum.py) |
+| [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | Dynamic Programming | Legacy (unverified) | 2026-08-20 | [Source](Medium/unique-paths.py) |
+| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | Dynamic Programming | Legacy (unverified) | 2026-08-20 | [Source](Medium/minimum-path-sum.py) |
+| [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | Dynamic Programming | Legacy (unverified) | 2026-08-19 | [Source](Medium/decode-ways.py) |
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | Trees | Legacy (unverified) | 2026-08-19 | [Source](Medium/binary-tree-level-order-traversal.py) |
+| [Word Break](https://leetcode.com/problems/word-break/) | Medium | Dynamic Programming | Legacy (unverified) | 2026-08-17 | [Source](Medium/word-break.py) |
+| [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | Trees | Legacy (unverified) | 2026-08-17 | [Source](Easy/subtree-of-another-tree.py) |
+| [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | Trees | Legacy (unverified) | 2026-08-14 | [Source](Easy/merge-two-binary-trees.py) |
+| [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | Dynamic Programming | Legacy (unverified) | 2026-08-14 | [Source](Medium/coin-change.py) |
+| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-23 | [Source](Easy/symmetric-tree.py) |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/maximum-depth-of-binary-tree.py) |
+| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
+| [House Robber](https://leetcode.com/problems/house-robber/) | Medium | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Medium/house-robber.py) |
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
+
+Updated 2026-09-23. Progress is regenerated on each run from the durable [completion journal](progress.json).
+<!-- leetcode-progress:end -->
+
+---
+
 <div align="center">
 
 # 🧠 LeetCode Solutions
