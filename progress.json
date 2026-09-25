@@ -239,5 +239,28 @@
       "Binary Search"
     ],
     "solution_path": "Easy/binary-search.py"
+  },
+  {
+    "problem_id": "contains-duplicate",
+    "timestamp": "2026-09-25T18:30:50.345475-04:00",
+    "code_sha256": "d003f4a61403ce2a9eee91e7c85cfd7ecf7f62ed3415c7a7ceb63c8ffa297e3f",
+    "title": "Contains Duplicate",
+    "topic": "Hash Tables",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/contains-duplicate/",
+    "correct_code": "class Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        return len(set(nums)) != len(nums)\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "contains-duplicate",
+      "cases_passed": 4,
+      "code_sha256": "d003f4a61403ce2a9eee91e7c85cfd7ecf7f62ed3415c7a7ceb63c8ffa297e3f",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-09-25T18:30:50.345475-04:00",
+    "topics": [
+      "Hash Tables"
+    ],
+    "solution_path": "Easy/contains-duplicate.py"
   }
 ]
