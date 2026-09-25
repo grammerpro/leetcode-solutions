@@ -3,12 +3,12 @@
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**16 unique problems archived** · **1 day practice streak** · **16/30 catalog problems completed**
+**17 unique problems archived** · **2 day practice streak** · **17/30 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 1 |
+| Local tests passed | 2 |
 | LeetCode Accepted | 0 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -17,7 +17,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Difficulty | Problems |
 | :--- | ---: |
-| Easy | 9 |
+| Easy | 10 |
 | Medium | 7 |
 | Hard | 0 |
 
@@ -26,11 +26,13 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Trees | 8 |
 | Dynamic Programming | 7 |
 | Arrays | 1 |
+| Binary Search | 1 |
 
 ### Solution index
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | Binary Search | Local tests passed | 2026-09-24 | [Source](Easy/binary-search.py) |
 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Arrays | Local tests passed | 2026-09-23 | [Source](Easy/best-time-to-buy-and-sell-stock.py) |
 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Trees | Legacy (unverified) | 2026-08-24 | [Source](Easy/same-tree.py) |
 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | Trees | Legacy (unverified) | 2026-08-24 | [Source](Easy/path-sum.py) |
@@ -48,7 +50,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Medium/house-robber.py) |
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 
-Updated 2026-09-23. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-09-24. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->
 
 ---

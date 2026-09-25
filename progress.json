@@ -216,5 +216,28 @@
       "Arrays"
     ],
     "solution_path": "Easy/best-time-to-buy-and-sell-stock.py"
+  },
+  {
+    "problem_id": "binary-search",
+    "timestamp": "2026-09-24T22:00:02.320250-04:00",
+    "code_sha256": "852b89a0edd0811e432ca15f3c9b5a26e18e85a00f865d20bb7e82fbd0b72e94",
+    "title": "Binary Search",
+    "topic": "Binary Search",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/binary-search/",
+    "correct_code": "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        left, right = 0, len(nums) - 1\n        while left <= right:\n            middle = (left + right) // 2\n            if nums[middle] == target:\n                return middle\n            if nums[middle] < target:\n                left = middle + 1\n            else:\n                right = middle - 1\n        return -1\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "binary-search",
+      "cases_passed": 6,
+      "code_sha256": "852b89a0edd0811e432ca15f3c9b5a26e18e85a00f865d20bb7e82fbd0b72e94",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-09-24T22:00:02.320250-04:00",
+    "topics": [
+      "Binary Search"
+    ],
+    "solution_path": "Easy/binary-search.py"
   }
 ]

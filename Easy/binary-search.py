@@ -1,0 +1,18 @@
+# Problem: Binary Search
+# Topics: Binary Search
+# Difficulty: Easy
+# Evidence: Local tests passed
+# Link: https://leetcode.com/problems/binary-search/
+
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        left, right = 0, len(nums) - 1
+        while left <= right:
+            middle = (left + right) // 2
+            if nums[middle] == target:
+                return middle
+            if nums[middle] < target:
+                left = middle + 1
+            else:
+                right = middle - 1
+        return -1
