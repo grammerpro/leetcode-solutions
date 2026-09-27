@@ -1,5 +1,18 @@
 [
   {
+    "problem_id": "invert-binary-tree",
+    "title": "Invert Binary Tree",
+    "timestamp": "2026-05-22T07:04:35",
+    "status": "legacy",
+    "first_completed_at": "2026-05-22T07:04:35",
+    "difficulty": "Easy",
+    "topics": [
+      "Trees"
+    ],
+    "correct_code": "class Solution:\n    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:\n        if root is None:\n            return None\n        stack = [root]\n        while stack:\n            node = stack.pop()\n            node.left, node.right = node.right, node.left\n            if node.left is not None:\n                stack.append(node.left)\n            if node.right is not None:\n                stack.append(node.right)\n        return root\n",
+    "solution_path": "Easy/invert-binary-tree.py"
+  },
+  {
     "problem_id": "climbing-stairs",
     "title": "Climbing Stairs",
     "timestamp": "2026-05-22T07:28:16",
@@ -24,19 +37,6 @@
     ],
     "correct_code": "class Solution:\n    def rob(self, nums: List[int]) -> int:\n        # DP approach handling all edge cases\n        if not nums:\n            return 0\n        if len(nums) == 1:\n            return nums[0]\n            \n        n = len(nums)\n        dp = [0] * n\n        dp[0] = nums[0]\n        dp[1] = max(nums[0], nums[1])\n        \n        for i in range(2, n):\n            dp[i] = max(dp[i-1], dp[i-2] + nums[i])\n            \n        return dp[-1]",
     "solution_path": "Medium/house-robber.py"
-  },
-  {
-    "problem_id": "invert-binary-tree",
-    "title": "Invert Binary Tree",
-    "timestamp": "2026-05-22T07:04:35",
-    "status": "legacy",
-    "first_completed_at": "2026-05-22T07:04:35",
-    "difficulty": "Easy",
-    "topics": [
-      "Trees"
-    ],
-    "correct_code": "class Solution:\n    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:\n        if root is None:\n            return None\n        stack = [root]\n        while stack:\n            node = stack.pop()\n            node.left, node.right = node.right, node.left\n            if node.left is not None:\n                stack.append(node.left)\n            if node.right is not None:\n                stack.append(node.right)\n        return root\n",
-    "solution_path": "Easy/invert-binary-tree.py"
   },
   {
     "problem_id": "maximum-depth-of-binary-tree",
@@ -65,19 +65,6 @@
     "solution_path": "Easy/symmetric-tree.py"
   },
   {
-    "problem_id": "coin-change",
-    "title": "Coin Change",
-    "timestamp": "2026-08-14T17:39:34.292553",
-    "status": "legacy",
-    "first_completed_at": "2026-08-14T17:39:34.292553",
-    "difficulty": "Medium",
-    "topics": [
-      "Dynamic Programming"
-    ],
-    "correct_code": "class Solution:\n    def coinChange(self, coins: List[int], amount: int) -> int:\n        # Bottom-up DP tabulating min coins for each amount up to target\n        dp = [float('inf')] * (amount + 1)\n        dp[0] = 0\n        \n        for coin in coins:\n            for x in range(coin, amount + 1):\n                dp[x] = min(dp[x], dp[x - coin] + 1)\n                \n        return dp[amount] if dp[amount] != float('inf') else -1",
-    "solution_path": "Medium/coin-change.py"
-  },
-  {
     "problem_id": "merge-two-binary-trees",
     "title": "Merge Two Binary Trees",
     "timestamp": "2026-08-14T17:16:21",
@@ -89,6 +76,19 @@
     ],
     "correct_code": "class Solution:\n    def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Optional[TreeNode]:\n        if root1 is None:\n            return root2\n        if root2 is None:\n            return root1\n        result = TreeNode(root1.val + root2.val)\n        stack = [(result, root1, root2)]\n        while stack:\n            merged, first, second = stack.pop()\n            for side in ('left', 'right'):\n                left, right = getattr(first, side), getattr(second, side)\n                if left is None or right is None:\n                    setattr(merged, side, right if left is None else left)\n                else:\n                    child = TreeNode(left.val + right.val)\n                    setattr(merged, side, child)\n                    stack.append((child, left, right))\n        return result\n",
     "solution_path": "Easy/merge-two-binary-trees.py"
+  },
+  {
+    "problem_id": "coin-change",
+    "title": "Coin Change",
+    "timestamp": "2026-08-14T17:39:34.292553",
+    "status": "legacy",
+    "first_completed_at": "2026-08-14T17:39:34.292553",
+    "difficulty": "Medium",
+    "topics": [
+      "Dynamic Programming"
+    ],
+    "correct_code": "class Solution:\n    def coinChange(self, coins: List[int], amount: int) -> int:\n        # Bottom-up DP tabulating min coins for each amount up to target\n        dp = [float('inf')] * (amount + 1)\n        dp[0] = 0\n        \n        for coin in coins:\n            for x in range(coin, amount + 1):\n                dp[x] = min(dp[x], dp[x - coin] + 1)\n                \n        return dp[amount] if dp[amount] != float('inf') else -1",
+    "solution_path": "Medium/coin-change.py"
   },
   {
     "problem_id": "subtree-of-another-tree",
@@ -117,19 +117,6 @@
     "solution_path": "Medium/word-break.py"
   },
   {
-    "problem_id": "binary-tree-level-order-traversal",
-    "title": "Binary Tree Level Order Traversal",
-    "timestamp": "2026-08-19T11:09:55.502225",
-    "status": "legacy",
-    "first_completed_at": "2026-08-19T11:09:55.502225",
-    "difficulty": "Medium",
-    "topics": [
-      "Trees"
-    ],
-    "correct_code": "from collections import deque\n\n\nclass Solution:\n    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:\n        if root is None:\n            return []\n        result = []\n        queue = deque([root])\n        while queue:\n            level = []\n            for _ in range(len(queue)):\n                node = queue.popleft()\n                level.append(node.val)\n                if node.left is not None:\n                    queue.append(node.left)\n                if node.right is not None:\n                    queue.append(node.right)\n            result.append(level)\n        return result\n",
-    "solution_path": "Medium/binary-tree-level-order-traversal.py"
-  },
-  {
     "problem_id": "decode-ways",
     "title": "Decode Ways",
     "timestamp": "2026-08-19T10:59:28.605390",
@@ -143,17 +130,17 @@
     "solution_path": "Medium/decode-ways.py"
   },
   {
-    "problem_id": "minimum-path-sum",
-    "title": "Minimum Path Sum",
-    "timestamp": "2026-08-20T22:16:43.796623",
+    "problem_id": "binary-tree-level-order-traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "timestamp": "2026-08-19T11:09:55.502225",
     "status": "legacy",
-    "first_completed_at": "2026-08-20T22:16:43.796623",
+    "first_completed_at": "2026-08-19T11:09:55.502225",
     "difficulty": "Medium",
     "topics": [
-      "Dynamic Programming"
+      "Trees"
     ],
-    "correct_code": "class Solution:\n    def minPathSum(self, grid: List[List[int]]) -> int:\n        # 2D Dynamic Programming to find global minimum path sum\n        m, n = len(grid), len(grid[0])\n        dp = [[0] * n for _ in range(m)]\n        dp[0][0] = grid[0][0]\n        \n        for j in range(1, n):\n            dp[0][j] = dp[0][j-1] + grid[0][j]\n        for i in range(1, m):\n            dp[i][0] = dp[i-1][0] + grid[i][0]\n            \n        for i in range(1, m):\n            for j in range(1, n):\n                dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + grid[i][j]\n                \n        return dp[m-1][n-1]",
-    "solution_path": "Medium/minimum-path-sum.py"
+    "correct_code": "from collections import deque\n\n\nclass Solution:\n    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:\n        if root is None:\n            return []\n        result = []\n        queue = deque([root])\n        while queue:\n            level = []\n            for _ in range(len(queue)):\n                node = queue.popleft()\n                level.append(node.val)\n                if node.left is not None:\n                    queue.append(node.left)\n                if node.right is not None:\n                    queue.append(node.right)\n            result.append(level)\n        return result\n",
+    "solution_path": "Medium/binary-tree-level-order-traversal.py"
   },
   {
     "problem_id": "unique-paths",
@@ -169,17 +156,17 @@
     "solution_path": "Medium/unique-paths.py"
   },
   {
-    "problem_id": "path-sum",
-    "title": "Path Sum",
-    "timestamp": "2026-08-24T09:47:39.856681",
+    "problem_id": "minimum-path-sum",
+    "title": "Minimum Path Sum",
+    "timestamp": "2026-08-20T22:16:43.796623",
     "status": "legacy",
-    "first_completed_at": "2026-08-24T09:47:39.856681",
-    "difficulty": "Easy",
+    "first_completed_at": "2026-08-20T22:16:43.796623",
+    "difficulty": "Medium",
     "topics": [
-      "Trees"
+      "Dynamic Programming"
     ],
-    "correct_code": "class Solution:\n    def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:\n        stack = [(root, root.val)] if root is not None else []\n        while stack:\n            node, total = stack.pop()\n            if node.left is None and node.right is None and total == targetSum:\n                return True\n            if node.left is not None:\n                stack.append((node.left, total + node.left.val))\n            if node.right is not None:\n                stack.append((node.right, total + node.right.val))\n        return False\n",
-    "solution_path": "Easy/path-sum.py"
+    "correct_code": "class Solution:\n    def minPathSum(self, grid: List[List[int]]) -> int:\n        # 2D Dynamic Programming to find global minimum path sum\n        m, n = len(grid), len(grid[0])\n        dp = [[0] * n for _ in range(m)]\n        dp[0][0] = grid[0][0]\n        \n        for j in range(1, n):\n            dp[0][j] = dp[0][j-1] + grid[0][j]\n        for i in range(1, m):\n            dp[i][0] = dp[i-1][0] + grid[i][0]\n            \n        for i in range(1, m):\n            for j in range(1, n):\n                dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + grid[i][j]\n                \n        return dp[m-1][n-1]",
+    "solution_path": "Medium/minimum-path-sum.py"
   },
   {
     "problem_id": "same-tree",
@@ -193,6 +180,19 @@
     ],
     "correct_code": "class Solution:\n    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:\n        stack = [(p, q)]\n        while stack:\n            left, right = stack.pop()\n            if left is None or right is None:\n                if left is not right:\n                    return False\n                continue\n            if left.val != right.val:\n                return False\n            stack.append((left.left, right.left))\n            stack.append((left.right, right.right))\n        return True\n",
     "solution_path": "Easy/same-tree.py"
+  },
+  {
+    "problem_id": "path-sum",
+    "title": "Path Sum",
+    "timestamp": "2026-08-24T09:47:39.856681",
+    "status": "legacy",
+    "first_completed_at": "2026-08-24T09:47:39.856681",
+    "difficulty": "Easy",
+    "topics": [
+      "Trees"
+    ],
+    "correct_code": "class Solution:\n    def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:\n        stack = [(root, root.val)] if root is not None else []\n        while stack:\n            node, total = stack.pop()\n            if node.left is None and node.right is None and total == targetSum:\n                return True\n            if node.left is not None:\n                stack.append((node.left, total + node.left.val))\n            if node.right is not None:\n                stack.append((node.right, total + node.right.val))\n        return False\n",
+    "solution_path": "Easy/path-sum.py"
   },
   {
     "problem_id": "best-time-to-buy-and-sell-stock",
@@ -262,5 +262,28 @@
       "Hash Tables"
     ],
     "solution_path": "Easy/contains-duplicate.py"
+  },
+  {
+    "problem_id": "longest-substring-without-repeating-characters",
+    "timestamp": "2026-09-27T07:40:52.342634-04:00",
+    "code_sha256": "11e99efbba8ddd12afaa84bc388c59acb81ca9fc1895bcf51235c955ed8babbd",
+    "title": "Longest Substring Without Repeating Characters",
+    "topic": "Sliding Window",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "correct_code": "class Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        seen = {}\n        left = best = 0\n        for right, char in enumerate(s):\n            if char in seen:\n                left = max(left, seen[char] + 1)\n            seen[char] = right\n            best = max(best, right - left + 1)\n        return best\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "longest-substring-without-repeating-characters",
+      "cases_passed": 6,
+      "code_sha256": "11e99efbba8ddd12afaa84bc388c59acb81ca9fc1895bcf51235c955ed8babbd",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-09-27T07:40:52.342634-04:00",
+    "topics": [
+      "Sliding Window"
+    ],
+    "solution_path": "Medium/longest-substring-without-repeating-characters.py"
   }
 ]
