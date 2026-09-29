@@ -285,5 +285,28 @@
       "Sliding Window"
     ],
     "solution_path": "Medium/longest-substring-without-repeating-characters.py"
+  },
+  {
+    "problem_id": "single-number",
+    "timestamp": "2026-09-28T22:00:02.899924-04:00",
+    "code_sha256": "78b0a3cfa1bb1edf9c6759817279d8c286033924d785e9dbaa51929a4f6f2eea",
+    "title": "Single Number",
+    "topic": "Bit Manipulation",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/single-number/",
+    "correct_code": "class Solution:\n    def singleNumber(self, nums: List[int]) -> int:\n        result = 0\n        for value in nums:\n            result ^= value\n        return result\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "single-number",
+      "cases_passed": 5,
+      "code_sha256": "78b0a3cfa1bb1edf9c6759817279d8c286033924d785e9dbaa51929a4f6f2eea",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-09-28T22:00:02.899924-04:00",
+    "topics": [
+      "Bit Manipulation"
+    ],
+    "solution_path": "Easy/single-number.py"
   }
 ]

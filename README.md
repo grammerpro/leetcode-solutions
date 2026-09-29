@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**19 unique problems archived** · **1 day practice streak** · **19/30 catalog problems completed**
+**20 unique problems archived** · **2 day practice streak** · **20/30 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 4 |
+| Local tests passed | 5 |
 | LeetCode Accepted | 0 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -21,7 +21,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Difficulty | Problems |
 | :--- | ---: |
-| Easy | 11 |
+| Easy | 12 |
 | Medium | 8 |
 | Hard | 0 |
 
@@ -31,6 +31,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Dynamic Programming | 7 |
 | Arrays | 1 |
 | Binary Search | 1 |
+| Bit Manipulation | 1 |
 | Hash Tables | 1 |
 | Sliding Window | 1 |
 
@@ -38,6 +39,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Single Number](https://leetcode.com/problems/single-number/) | Easy | Bit Manipulation | Local tests passed | 2026-09-28 | [Source](Easy/single-number.py) |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding Window | Local tests passed | 2026-09-27 | [Source](Medium/longest-substring-without-repeating-characters.py) |
 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Hash Tables | Local tests passed | 2026-09-25 | [Source](Easy/contains-duplicate.py) |
 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | Binary Search | Local tests passed | 2026-09-24 | [Source](Easy/binary-search.py) |
@@ -58,5 +60,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-09-27. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-09-28. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->
