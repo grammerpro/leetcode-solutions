@@ -308,5 +308,28 @@
       "Bit Manipulation"
     ],
     "solution_path": "Easy/single-number.py"
+  },
+  {
+    "problem_id": "valid-palindrome",
+    "timestamp": "2026-09-29T20:47:58.084846-04:00",
+    "code_sha256": "3ab91846a0c2fca4f078ca2929c1f301cbc24d348bdb0c3a4d6ed4f09eb7ebda",
+    "title": "Valid Palindrome",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/valid-palindrome/",
+    "correct_code": "class Solution:\n    def isPalindrome(self, s: str) -> bool:\n        left, right = 0, len(s) - 1\n        while left < right:\n            if not s[left].isalnum():\n                left += 1\n                continue\n            if not s[right].isalnum():\n                right -= 1\n                continue\n            if s[left].lower() != s[right].lower():\n                return False\n            left += 1\n            right -= 1\n        return True\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "valid-palindrome",
+      "cases_passed": 5,
+      "code_sha256": "3ab91846a0c2fca4f078ca2929c1f301cbc24d348bdb0c3a4d6ed4f09eb7ebda",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-09-29T20:47:58.084846-04:00",
+    "topics": [
+      "Strings"
+    ],
+    "solution_path": "Easy/valid-palindrome.py"
   }
 ]
