@@ -331,5 +331,28 @@
       "Strings"
     ],
     "solution_path": "Easy/valid-palindrome.py"
+  },
+  {
+    "problem_id": "valid-parentheses",
+    "timestamp": "2026-09-30T21:34:14.133284-04:00",
+    "code_sha256": "5b0bc8d70aea8fd6cd5e8f405e36268514986bb66c04b1c9f500abdc5fa44ee6",
+    "title": "Valid Parentheses",
+    "topic": "Stacks",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
+    "correct_code": "class Solution:\n    def isValid(self, s: str) -> bool:\n        matching = {')': '(', ']': '[', '}': '{'}\n        stack = []\n        for char in s:\n            if char in matching:\n                if not stack or stack.pop() != matching[char]:\n                    return False\n            else:\n                stack.append(char)\n        return not stack\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "valid-parentheses",
+      "cases_passed": 6,
+      "code_sha256": "5b0bc8d70aea8fd6cd5e8f405e36268514986bb66c04b1c9f500abdc5fa44ee6",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-09-30T21:34:14.133284-04:00",
+    "topics": [
+      "Stacks"
+    ],
+    "solution_path": "Easy/valid-parentheses.py"
   }
 ]
