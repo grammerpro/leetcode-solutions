@@ -354,5 +354,28 @@
       "Stacks"
     ],
     "solution_path": "Easy/valid-parentheses.py"
+  },
+  {
+    "problem_id": "merge-sorted-array",
+    "timestamp": "2026-10-01T23:30:03.503549-04:00",
+    "code_sha256": "28f1aa759628ec38ccd31cf002ca98d56723fa387891fc361af593bc06848dce",
+    "title": "Merge Sorted Array",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/merge-sorted-array/",
+    "correct_code": "class Solution:\n    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:\n        first, second, write = m - 1, n - 1, m + n - 1\n        while second >= 0:\n            if first >= 0 and nums1[first] > nums2[second]:\n                nums1[write] = nums1[first]\n                first -= 1\n            else:\n                nums1[write] = nums2[second]\n                second -= 1\n            write -= 1\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "merge-sorted-array",
+      "cases_passed": 4,
+      "code_sha256": "28f1aa759628ec38ccd31cf002ca98d56723fa387891fc361af593bc06848dce",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-10-01T23:30:03.503549-04:00",
+    "topics": [
+      "Arrays"
+    ],
+    "solution_path": "Easy/merge-sorted-array.py"
   }
 ]
