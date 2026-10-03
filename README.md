@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**23 unique problems archived** · **5 day practice streak** · **23/30 catalog problems completed**
+**24 unique problems archived** · **6 day practice streak** · **24/30 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 8 |
+| Local tests passed | 9 |
 | LeetCode Accepted | 0 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -21,7 +21,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Difficulty | Problems |
 | :--- | ---: |
-| Easy | 15 |
+| Easy | 16 |
 | Medium | 8 |
 | Hard | 0 |
 
@@ -30,7 +30,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Trees | 8 |
 | Dynamic Programming | 7 |
 | Arrays | 2 |
-| Binary Search | 1 |
+| Binary Search | 2 |
 | Bit Manipulation | 1 |
 | Hash Tables | 1 |
 | Sliding Window | 1 |
@@ -41,6 +41,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Binary Search | Local tests passed | 2026-10-02 | [Source](Easy/search-insert-position.py) |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | Arrays | Local tests passed | 2026-10-01 | [Source](Easy/merge-sorted-array.py) |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Stacks | Local tests passed | 2026-09-30 | [Source](Easy/valid-parentheses.py) |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Strings | Local tests passed | 2026-09-29 | [Source](Easy/valid-palindrome.py) |
@@ -65,5 +66,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-10-01. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-10-02. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->

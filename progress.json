@@ -377,5 +377,28 @@
       "Arrays"
     ],
     "solution_path": "Easy/merge-sorted-array.py"
+  },
+  {
+    "problem_id": "search-insert-position",
+    "timestamp": "2026-10-02T22:00:02.544624-04:00",
+    "code_sha256": "9e27cb276dbfca6aa7cd3b33c9fca5d82b8b8b5b1469f44cc2251794a809b0f2",
+    "title": "Search Insert Position",
+    "topic": "Binary Search",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/search-insert-position/",
+    "correct_code": "class Solution:\n    def searchInsert(self, nums: List[int], target: int) -> int:\n        left, right = 0, len(nums)\n        while left < right:\n            middle = (left + right) // 2\n            if nums[middle] < target:\n                left = middle + 1\n            else:\n                right = middle\n        return left\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "search-insert-position",
+      "cases_passed": 5,
+      "code_sha256": "9e27cb276dbfca6aa7cd3b33c9fca5d82b8b8b5b1469f44cc2251794a809b0f2",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-10-02T22:00:02.544624-04:00",
+    "topics": [
+      "Binary Search"
+    ],
+    "solution_path": "Easy/search-insert-position.py"
   }
 ]
