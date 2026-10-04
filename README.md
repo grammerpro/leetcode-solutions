@@ -7,13 +7,13 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**25 unique problems archived** · **7 day practice streak** · **25/60 catalog problems completed**
+**26 unique problems archived** · **8 day practice streak** · **26/60 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
 | Local tests passed | 10 |
-| LeetCode Accepted | 0 |
+| LeetCode Accepted | 1 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
 
@@ -21,7 +21,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Difficulty | Problems |
 | :--- | ---: |
-| Easy | 17 |
+| Easy | 18 |
 | Medium | 8 |
 | Hard | 0 |
 
@@ -33,6 +33,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Binary Search | 2 |
 | Hash Tables | 2 |
 | Bit Manipulation | 1 |
+| Math | 1 |
 | Sliding Window | 1 |
 | Stacks | 1 |
 | Strings | 1 |
@@ -41,6 +42,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | Math | LeetCode Accepted | 2026-10-04 | [Source](Easy/happy-number.py) |
 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Hash Tables | Local tests passed | 2026-10-03 | [Source](Easy/two-sum.py) |
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Binary Search | Local tests passed | 2026-10-02 | [Source](Easy/search-insert-position.py) |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | Arrays | Local tests passed | 2026-10-01 | [Source](Easy/merge-sorted-array.py) |
