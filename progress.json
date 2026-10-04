@@ -400,5 +400,28 @@
       "Binary Search"
     ],
     "solution_path": "Easy/search-insert-position.py"
+  },
+  {
+    "problem_id": "two-sum",
+    "timestamp": "2026-10-03T22:00:01.851008-04:00",
+    "code_sha256": "81e0e33c3eddf9dde2d7cbabbc9441dabf9e3693d9a14117342ca47039823dc6",
+    "title": "Two Sum",
+    "topic": "Hash Tables",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/two-sum/",
+    "correct_code": "class Solution:\n    def twoSum(self, nums: List[int], target: int) -> List[int]:\n        seen = {}\n        for index, value in enumerate(nums):\n            if target - value in seen:\n                return [seen[target - value], index]\n            seen[value] = index\n        return []\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "two-sum",
+      "cases_passed": 5,
+      "code_sha256": "81e0e33c3eddf9dde2d7cbabbc9441dabf9e3693d9a14117342ca47039823dc6",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-10-03T22:00:01.851008-04:00",
+    "topics": [
+      "Hash Tables"
+    ],
+    "solution_path": "Easy/two-sum.py"
   }
 ]
