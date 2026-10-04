@@ -7,7 +7,7 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**25 unique problems archived** · **7 day practice streak** · **25/30 catalog problems completed**
+**25 unique problems archived** · **7 day practice streak** · **25/60 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
@@ -67,5 +67,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-10-03. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-10-04. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->
