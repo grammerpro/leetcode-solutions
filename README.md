@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**26 unique problems archived** · **0 day practice streak** · **26/60 catalog problems completed**
+**28 unique problems archived** · **1 day practice streak** · **28/60 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 10 |
+| Local tests passed | 12 |
 | LeetCode Accepted | 1 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -21,7 +21,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Difficulty | Problems |
 | :--- | ---: |
-| Easy | 18 |
+| Easy | 20 |
 | Medium | 8 |
 | Hard | 0 |
 
@@ -31,17 +31,19 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Dynamic Programming | 7 |
 | Arrays | 2 |
 | Binary Search | 2 |
+| Bit Manipulation | 2 |
 | Hash Tables | 2 |
-| Bit Manipulation | 1 |
+| Strings | 2 |
 | Math | 1 |
 | Sliding Window | 1 |
 | Stacks | 1 |
-| Strings | 1 |
 
 ### Solution index
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Strings | Local tests passed | 2026-11-08 | [Source](Easy/find-the-index-of-the-first-occurrence-in-a-string.py) |
+| [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | Bit Manipulation | Local tests passed | 2026-11-08 | [Source](Easy/counting-bits.py) |
 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | Math | LeetCode Accepted | 2026-10-04 | [Source](Easy/happy-number.py) |
 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Hash Tables | Local tests passed | 2026-10-03 | [Source](Easy/two-sum.py) |
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Binary Search | Local tests passed | 2026-10-02 | [Source](Easy/search-insert-position.py) |

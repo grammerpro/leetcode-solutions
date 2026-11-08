@@ -448,5 +448,53 @@
       "Math"
     ],
     "solution_path": "Easy/happy-number.py"
+  },
+  {
+    "problem_id": "counting-bits",
+    "timestamp": "2026-11-08T12:08:16.643022-05:00",
+    "code_sha256": "a8a40e46fbc211274a13598b6c096eec846dc5c3aedc8a3bc9f99c3a7e503c5b",
+    "title": "Counting Bits",
+    "topic": "Bit Manipulation",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/counting-bits/",
+    "correct_code": "class Solution:\n    def countBits(self, n: int) -> List[int]:\n        counts = [0] * (n + 1)\n        for value in range(1, n + 1):\n            counts[value] = counts[value >> 1] + (value & 1)\n        return counts\n",
+    "manual_extra": true,
+    "validation": {
+      "status": "passed",
+      "problem_id": "counting-bits",
+      "cases_passed": 6,
+      "code_sha256": "a8a40e46fbc211274a13598b6c096eec846dc5c3aedc8a3bc9f99c3a7e503c5b",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-08T12:08:16.643022-05:00",
+    "topics": [
+      "Bit Manipulation"
+    ],
+    "solution_path": "Easy/counting-bits.py"
+  },
+  {
+    "problem_id": "find-the-index-of-the-first-occurrence-in-a-string",
+    "timestamp": "2026-11-08T12:08:16.643022-05:00",
+    "code_sha256": "dc33f2d61e4fe24c804e44616b9b696188f27cd9095d294c057ca4f5a24815e6",
+    "title": "Find the Index of the First Occurrence in a String",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+    "correct_code": "class Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        return haystack.find(needle)\n",
+    "manual_extra": true,
+    "validation": {
+      "status": "passed",
+      "problem_id": "find-the-index-of-the-first-occurrence-in-a-string",
+      "cases_passed": 6,
+      "code_sha256": "dc33f2d61e4fe24c804e44616b9b696188f27cd9095d294c057ca4f5a24815e6",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-08T12:08:16.643022-05:00",
+    "topics": [
+      "Strings"
+    ],
+    "solution_path": "Easy/find-the-index-of-the-first-occurrence-in-a-string.py"
   }
 ]
