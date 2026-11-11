@@ -196,13 +196,13 @@
   },
   {
     "problem_id": "best-time-to-buy-and-sell-stock",
-    "timestamp": "2026-09-23T22:00:02.327212-04:00",
+    "timestamp": "2026-11-11T16:50:53.412872-05:00",
     "code_sha256": "10e3e644331ce89174033ed9dd063fb7401e8583d2ab810021e1d0664025fc05",
+    "correct_code": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        lowest, best = prices[0], 0\n        for price in prices:\n            lowest = min(lowest, price)\n            best = max(best, price - lowest)\n        return best\n",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
     "title": "Best Time to Buy and Sell Stock",
     "topic": "Arrays",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
-    "correct_code": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        lowest, best = prices[0], 0\n        for price in prices:\n            lowest = min(lowest, price)\n            best = max(best, price - lowest)\n        return best\n",
     "validation": {
       "status": "passed",
       "problem_id": "best-time-to-buy-and-sell-stock",
@@ -210,7 +210,8 @@
       "code_sha256": "10e3e644331ce89174033ed9dd063fb7401e8583d2ab810021e1d0664025fc05",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2194192288",
     "first_completed_at": "2026-09-23T22:00:02.327212-04:00",
     "topics": [
       "Arrays"
@@ -219,13 +220,13 @@
   },
   {
     "problem_id": "binary-search",
-    "timestamp": "2026-09-24T22:00:02.320250-04:00",
+    "timestamp": "2026-11-11T16:50:59.412643-05:00",
     "code_sha256": "852b89a0edd0811e432ca15f3c9b5a26e18e85a00f865d20bb7e82fbd0b72e94",
+    "correct_code": "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        left, right = 0, len(nums) - 1\n        while left <= right:\n            middle = (left + right) // 2\n            if nums[middle] == target:\n                return middle\n            if nums[middle] < target:\n                left = middle + 1\n            else:\n                right = middle - 1\n        return -1\n",
+    "url": "https://leetcode.com/problems/binary-search/",
     "title": "Binary Search",
     "topic": "Binary Search",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/binary-search/",
-    "correct_code": "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        left, right = 0, len(nums) - 1\n        while left <= right:\n            middle = (left + right) // 2\n            if nums[middle] == target:\n                return middle\n            if nums[middle] < target:\n                left = middle + 1\n            else:\n                right = middle - 1\n        return -1\n",
     "validation": {
       "status": "passed",
       "problem_id": "binary-search",
@@ -233,7 +234,8 @@
       "code_sha256": "852b89a0edd0811e432ca15f3c9b5a26e18e85a00f865d20bb7e82fbd0b72e94",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2194192408",
     "first_completed_at": "2026-09-24T22:00:02.320250-04:00",
     "topics": [
       "Binary Search"
@@ -242,13 +244,13 @@
   },
   {
     "problem_id": "contains-duplicate",
-    "timestamp": "2026-09-25T18:30:50.345475-04:00",
+    "timestamp": "2026-11-11T16:51:25.199407-05:00",
     "code_sha256": "d003f4a61403ce2a9eee91e7c85cfd7ecf7f62ed3415c7a7ceb63c8ffa297e3f",
+    "correct_code": "class Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        return len(set(nums)) != len(nums)\n",
+    "url": "https://leetcode.com/problems/contains-duplicate/",
     "title": "Contains Duplicate",
     "topic": "Hash Tables",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/contains-duplicate/",
-    "correct_code": "class Solution:\n    def containsDuplicate(self, nums: List[int]) -> bool:\n        return len(set(nums)) != len(nums)\n",
     "validation": {
       "status": "passed",
       "problem_id": "contains-duplicate",
@@ -256,7 +258,8 @@
       "code_sha256": "d003f4a61403ce2a9eee91e7c85cfd7ecf7f62ed3415c7a7ceb63c8ffa297e3f",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2194192526",
     "first_completed_at": "2026-09-25T18:30:50.345475-04:00",
     "topics": [
       "Hash Tables"

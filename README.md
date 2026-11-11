@@ -12,8 +12,8 @@ Python solutions, organized by difficulty, with an honest record of practice and
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 13 |
-| LeetCode Accepted | 1 |
+| Local tests passed | 10 |
+| LeetCode Accepted | 4 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
 
@@ -53,9 +53,9 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Strings | Local tests passed | 2026-09-29 | [Source](Easy/valid-palindrome.py) |
 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | Bit Manipulation | Local tests passed | 2026-09-28 | [Source](Easy/single-number.py) |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding Window | Local tests passed | 2026-09-27 | [Source](Medium/longest-substring-without-repeating-characters.py) |
-| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Hash Tables | Local tests passed | 2026-09-25 | [Source](Easy/contains-duplicate.py) |
-| [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | Binary Search | Local tests passed | 2026-09-24 | [Source](Easy/binary-search.py) |
-| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Arrays | Local tests passed | 2026-09-23 | [Source](Easy/best-time-to-buy-and-sell-stock.py) |
+| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Hash Tables | LeetCode Accepted | 2026-09-25 | [Source](Easy/contains-duplicate.py) |
+| [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | Binary Search | LeetCode Accepted | 2026-09-24 | [Source](Easy/binary-search.py) |
+| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Arrays | LeetCode Accepted | 2026-09-23 | [Source](Easy/best-time-to-buy-and-sell-stock.py) |
 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | Trees | Legacy (unverified) | 2026-08-24 | [Source](Easy/path-sum.py) |
 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | Trees | Legacy (unverified) | 2026-08-24 | [Source](Easy/same-tree.py) |
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | Dynamic Programming | Legacy (unverified) | 2026-08-20 | [Source](Medium/minimum-path-sum.py) |

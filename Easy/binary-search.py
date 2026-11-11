@@ -1,7 +1,7 @@
 # Problem: Binary Search
 # Topics: Binary Search
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/binary-search/
 
 class Solution:

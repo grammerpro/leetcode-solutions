@@ -1,7 +1,7 @@
 # Problem: Best Time to Buy and Sell Stock
 # Topics: Arrays
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 class Solution:
