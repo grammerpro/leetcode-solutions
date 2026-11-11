@@ -496,5 +496,28 @@
       "Strings"
     ],
     "solution_path": "Easy/find-the-index-of-the-first-occurrence-in-a-string.py"
+  },
+  {
+    "problem_id": "palindrome-number",
+    "timestamp": "2026-11-11T02:16:45.520262-05:00",
+    "code_sha256": "f6317f247743ce2f54c0b5558ee74c9ed4578e674794a08c5cc1fb79e6a607c8",
+    "title": "Palindrome Number",
+    "topic": "Math",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/palindrome-number/",
+    "correct_code": "class Solution:\n    def isPalindrome(self, x: int) -> bool:\n        if x < 0 or (x != 0 and x % 10 == 0):\n            return False\n        reversed_half = 0\n        while x > reversed_half:\n            reversed_half = reversed_half * 10 + x % 10\n            x //= 10\n        return x == reversed_half or x == reversed_half // 10\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "palindrome-number",
+      "cases_passed": 7,
+      "code_sha256": "f6317f247743ce2f54c0b5558ee74c9ed4578e674794a08c5cc1fb79e6a607c8",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-11T02:16:45.520262-05:00",
+    "topics": [
+      "Math"
+    ],
+    "solution_path": "Easy/palindrome-number.py"
   }
 ]
