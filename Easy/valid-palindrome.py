@@ -1,7 +1,7 @@
 # Problem: Valid Palindrome
 # Topics: Strings
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/valid-palindrome/
 
 class Solution:

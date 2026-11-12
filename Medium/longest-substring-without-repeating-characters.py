@@ -1,7 +1,7 @@
 # Problem: Longest Substring Without Repeating Characters
 # Topics: Sliding Window
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 class Solution:
