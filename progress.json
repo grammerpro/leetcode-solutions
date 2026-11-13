@@ -551,5 +551,28 @@
       "Greedy"
     ],
     "solution_path": "Medium/best-time-to-buy-and-sell-stock-ii.py"
+  },
+  {
+    "problem_id": "combination-sum",
+    "timestamp": "2026-11-13T11:13:19.954668-05:00",
+    "code_sha256": "7ba4a3afa08bb659f415ed837d404fe4b1fe908dcc8246040fc5f8dece5268e2",
+    "title": "Combination Sum",
+    "topic": "Backtracking",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/combination-sum/",
+    "correct_code": "class Solution:\n    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:\n        candidates = sorted(candidates)\n        answer = []\n        current = []\n\n        def build(start, remaining):\n            if remaining == 0:\n                answer.append(list(current))\n                return\n            for index in range(start, len(candidates)):\n                value = candidates[index]\n                if value > remaining:\n                    break\n                current.append(value)\n                build(index, remaining - value)\n                current.pop()\n\n        build(0, target)\n        return answer\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "combination-sum",
+      "cases_passed": 5,
+      "code_sha256": "7ba4a3afa08bb659f415ed837d404fe4b1fe908dcc8246040fc5f8dece5268e2",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-13T11:13:19.954668-05:00",
+    "topics": [
+      "Backtracking"
+    ],
+    "solution_path": "Medium/combination-sum.py"
   }
 ]
