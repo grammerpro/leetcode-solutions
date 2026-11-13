@@ -1,7 +1,7 @@
 # Problem: Search Insert Position
 # Topics: Binary Search
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/search-insert-position/
 
 class Solution:

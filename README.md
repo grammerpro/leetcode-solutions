@@ -12,8 +12,8 @@ Python solutions, organized by difficulty, with an honest record of practice and
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 8 |
-| LeetCode Accepted | 7 |
+| Local tests passed | 5 |
+| LeetCode Accepted | 10 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
 
@@ -49,9 +49,9 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | Bit Manipulation | Local tests passed | 2026-11-08 | [Source](Easy/counting-bits.py) |
 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | Math | LeetCode Accepted | 2026-10-04 | [Source](Easy/happy-number.py) |
 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Hash Tables | Local tests passed | 2026-10-03 | [Source](Easy/two-sum.py) |
-| [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Binary Search | Local tests passed | 2026-10-02 | [Source](Easy/search-insert-position.py) |
-| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | Arrays | Local tests passed | 2026-10-01 | [Source](Easy/merge-sorted-array.py) |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Stacks | Local tests passed | 2026-09-30 | [Source](Easy/valid-parentheses.py) |
+| [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Binary Search | LeetCode Accepted | 2026-10-02 | [Source](Easy/search-insert-position.py) |
+| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | Arrays | LeetCode Accepted | 2026-10-01 | [Source](Easy/merge-sorted-array.py) |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Stacks | LeetCode Accepted | 2026-09-30 | [Source](Easy/valid-parentheses.py) |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | Strings | LeetCode Accepted | 2026-09-29 | [Source](Easy/valid-palindrome.py) |
 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | Bit Manipulation | LeetCode Accepted | 2026-09-28 | [Source](Easy/single-number.py) |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding Window | LeetCode Accepted | 2026-09-27 | [Source](Medium/longest-substring-without-repeating-characters.py) |

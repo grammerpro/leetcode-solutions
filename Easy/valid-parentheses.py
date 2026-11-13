@@ -1,7 +1,7 @@
 # Problem: Valid Parentheses
 # Topics: Stacks
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/valid-parentheses/
 
 class Solution:

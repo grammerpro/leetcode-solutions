@@ -340,13 +340,13 @@
   },
   {
     "problem_id": "valid-parentheses",
-    "timestamp": "2026-09-30T21:34:14.133284-04:00",
+    "timestamp": "2026-11-12T21:00:15.614361-05:00",
     "code_sha256": "5b0bc8d70aea8fd6cd5e8f405e36268514986bb66c04b1c9f500abdc5fa44ee6",
+    "correct_code": "class Solution:\n    def isValid(self, s: str) -> bool:\n        matching = {')': '(', ']': '[', '}': '{'}\n        stack = []\n        for char in s:\n            if char in matching:\n                if not stack or stack.pop() != matching[char]:\n                    return False\n            else:\n                stack.append(char)\n        return not stack\n",
+    "url": "https://leetcode.com/problems/valid-parentheses/",
     "title": "Valid Parentheses",
     "topic": "Stacks",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/valid-parentheses/",
-    "correct_code": "class Solution:\n    def isValid(self, s: str) -> bool:\n        matching = {')': '(', ']': '[', '}': '{'}\n        stack = []\n        for char in s:\n            if char in matching:\n                if not stack or stack.pop() != matching[char]:\n                    return False\n            else:\n                stack.append(char)\n        return not stack\n",
     "validation": {
       "status": "passed",
       "problem_id": "valid-parentheses",
@@ -354,7 +354,8 @@
       "code_sha256": "5b0bc8d70aea8fd6cd5e8f405e36268514986bb66c04b1c9f500abdc5fa44ee6",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2194982116",
     "first_completed_at": "2026-09-30T21:34:14.133284-04:00",
     "topics": [
       "Stacks"
@@ -363,13 +364,13 @@
   },
   {
     "problem_id": "merge-sorted-array",
-    "timestamp": "2026-10-01T23:30:03.503549-04:00",
+    "timestamp": "2026-11-12T21:00:22.014768-05:00",
     "code_sha256": "28f1aa759628ec38ccd31cf002ca98d56723fa387891fc361af593bc06848dce",
+    "correct_code": "class Solution:\n    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:\n        first, second, write = m - 1, n - 1, m + n - 1\n        while second >= 0:\n            if first >= 0 and nums1[first] > nums2[second]:\n                nums1[write] = nums1[first]\n                first -= 1\n            else:\n                nums1[write] = nums2[second]\n                second -= 1\n            write -= 1\n",
+    "url": "https://leetcode.com/problems/merge-sorted-array/",
     "title": "Merge Sorted Array",
     "topic": "Arrays",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/merge-sorted-array/",
-    "correct_code": "class Solution:\n    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:\n        first, second, write = m - 1, n - 1, m + n - 1\n        while second >= 0:\n            if first >= 0 and nums1[first] > nums2[second]:\n                nums1[write] = nums1[first]\n                first -= 1\n            else:\n                nums1[write] = nums2[second]\n                second -= 1\n            write -= 1\n",
     "validation": {
       "status": "passed",
       "problem_id": "merge-sorted-array",
@@ -377,7 +378,8 @@
       "code_sha256": "28f1aa759628ec38ccd31cf002ca98d56723fa387891fc361af593bc06848dce",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2194982226",
     "first_completed_at": "2026-10-01T23:30:03.503549-04:00",
     "topics": [
       "Arrays"
@@ -386,13 +388,13 @@
   },
   {
     "problem_id": "search-insert-position",
-    "timestamp": "2026-10-02T22:00:02.544624-04:00",
+    "timestamp": "2026-11-12T21:00:47.171141-05:00",
     "code_sha256": "9e27cb276dbfca6aa7cd3b33c9fca5d82b8b8b5b1469f44cc2251794a809b0f2",
+    "correct_code": "class Solution:\n    def searchInsert(self, nums: List[int], target: int) -> int:\n        left, right = 0, len(nums)\n        while left < right:\n            middle = (left + right) // 2\n            if nums[middle] < target:\n                left = middle + 1\n            else:\n                right = middle\n        return left\n",
+    "url": "https://leetcode.com/problems/search-insert-position/",
     "title": "Search Insert Position",
     "topic": "Binary Search",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/search-insert-position/",
-    "correct_code": "class Solution:\n    def searchInsert(self, nums: List[int], target: int) -> int:\n        left, right = 0, len(nums)\n        while left < right:\n            middle = (left + right) // 2\n            if nums[middle] < target:\n                left = middle + 1\n            else:\n                right = middle\n        return left\n",
     "validation": {
       "status": "passed",
       "problem_id": "search-insert-position",
@@ -400,7 +402,8 @@
       "code_sha256": "9e27cb276dbfca6aa7cd3b33c9fca5d82b8b8b5b1469f44cc2251794a809b0f2",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2194982335",
     "first_completed_at": "2026-10-02T22:00:02.544624-04:00",
     "topics": [
       "Binary Search"
