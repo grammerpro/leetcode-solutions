@@ -1,7 +1,7 @@
 # Problem: Counting Bits
 # Topics: Bit Manipulation
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/counting-bits/
 
 class Solution:

@@ -12,8 +12,8 @@ Python solutions, organized by difficulty, with an honest record of practice and
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 6 |
-| LeetCode Accepted | 10 |
+| Local tests passed | 3 |
+| LeetCode Accepted | 13 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
 
@@ -47,10 +47,10 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | Local tests passed | 2026-11-13 | [Source](Medium/combination-sum.py) |
 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | Greedy | Local tests passed | 2026-11-12 | [Source](Medium/best-time-to-buy-and-sell-stock-ii.py) |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math | Local tests passed | 2026-11-11 | [Source](Easy/palindrome-number.py) |
-| [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Strings | Local tests passed | 2026-11-08 | [Source](Easy/find-the-index-of-the-first-occurrence-in-a-string.py) |
-| [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | Bit Manipulation | Local tests passed | 2026-11-08 | [Source](Easy/counting-bits.py) |
+| [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Strings | LeetCode Accepted | 2026-11-08 | [Source](Easy/find-the-index-of-the-first-occurrence-in-a-string.py) |
+| [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | Bit Manipulation | LeetCode Accepted | 2026-11-08 | [Source](Easy/counting-bits.py) |
 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | Math | LeetCode Accepted | 2026-10-04 | [Source](Easy/happy-number.py) |
-| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Hash Tables | Local tests passed | 2026-10-03 | [Source](Easy/two-sum.py) |
+| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Hash Tables | LeetCode Accepted | 2026-10-03 | [Source](Easy/two-sum.py) |
 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | Binary Search | LeetCode Accepted | 2026-10-02 | [Source](Easy/search-insert-position.py) |
 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | Arrays | LeetCode Accepted | 2026-10-01 | [Source](Easy/merge-sorted-array.py) |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | Stacks | LeetCode Accepted | 2026-09-30 | [Source](Easy/valid-parentheses.py) |

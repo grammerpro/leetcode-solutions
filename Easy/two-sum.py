@@ -1,7 +1,7 @@
 # Problem: Two Sum
 # Topics: Hash Tables
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/two-sum/
 
 class Solution:

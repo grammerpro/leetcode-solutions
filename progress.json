@@ -412,13 +412,13 @@
   },
   {
     "problem_id": "two-sum",
-    "timestamp": "2026-10-03T22:00:01.851008-04:00",
+    "timestamp": "2026-11-13T11:13:28.691443-05:00",
     "code_sha256": "81e0e33c3eddf9dde2d7cbabbc9441dabf9e3693d9a14117342ca47039823dc6",
+    "correct_code": "class Solution:\n    def twoSum(self, nums: List[int], target: int) -> List[int]:\n        seen = {}\n        for index, value in enumerate(nums):\n            if target - value in seen:\n                return [seen[target - value], index]\n            seen[value] = index\n        return []\n",
+    "url": "https://leetcode.com/problems/two-sum/",
     "title": "Two Sum",
     "topic": "Hash Tables",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/two-sum/",
-    "correct_code": "class Solution:\n    def twoSum(self, nums: List[int], target: int) -> List[int]:\n        seen = {}\n        for index, value in enumerate(nums):\n            if target - value in seen:\n                return [seen[target - value], index]\n            seen[value] = index\n        return []\n",
     "validation": {
       "status": "passed",
       "problem_id": "two-sum",
@@ -426,7 +426,8 @@
       "code_sha256": "81e0e33c3eddf9dde2d7cbabbc9441dabf9e3693d9a14117342ca47039823dc6",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2195404444",
     "first_completed_at": "2026-10-03T22:00:01.851008-04:00",
     "topics": [
       "Hash Tables"
@@ -460,14 +461,13 @@
   },
   {
     "problem_id": "counting-bits",
-    "timestamp": "2026-11-08T12:08:16.643022-05:00",
+    "timestamp": "2026-11-13T11:13:34.881160-05:00",
     "code_sha256": "a8a40e46fbc211274a13598b6c096eec846dc5c3aedc8a3bc9f99c3a7e503c5b",
+    "correct_code": "class Solution:\n    def countBits(self, n: int) -> List[int]:\n        counts = [0] * (n + 1)\n        for value in range(1, n + 1):\n            counts[value] = counts[value >> 1] + (value & 1)\n        return counts\n",
+    "url": "https://leetcode.com/problems/counting-bits/",
     "title": "Counting Bits",
     "topic": "Bit Manipulation",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/counting-bits/",
-    "correct_code": "class Solution:\n    def countBits(self, n: int) -> List[int]:\n        counts = [0] * (n + 1)\n        for value in range(1, n + 1):\n            counts[value] = counts[value >> 1] + (value & 1)\n        return counts\n",
-    "manual_extra": true,
     "validation": {
       "status": "passed",
       "problem_id": "counting-bits",
@@ -475,7 +475,9 @@
       "code_sha256": "a8a40e46fbc211274a13598b6c096eec846dc5c3aedc8a3bc9f99c3a7e503c5b",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "manual_extra": true,
+    "status": "accepted",
+    "submission_id": "2195404760",
     "first_completed_at": "2026-11-08T12:08:16.643022-05:00",
     "topics": [
       "Bit Manipulation"
@@ -484,14 +486,13 @@
   },
   {
     "problem_id": "find-the-index-of-the-first-occurrence-in-a-string",
-    "timestamp": "2026-11-08T12:08:16.643022-05:00",
+    "timestamp": "2026-11-13T11:14:01.595812-05:00",
     "code_sha256": "dc33f2d61e4fe24c804e44616b9b696188f27cd9095d294c057ca4f5a24815e6",
+    "correct_code": "class Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        return haystack.find(needle)\n",
+    "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
     "title": "Find the Index of the First Occurrence in a String",
     "topic": "Strings",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
-    "correct_code": "class Solution:\n    def strStr(self, haystack: str, needle: str) -> int:\n        return haystack.find(needle)\n",
-    "manual_extra": true,
     "validation": {
       "status": "passed",
       "problem_id": "find-the-index-of-the-first-occurrence-in-a-string",
@@ -499,7 +500,9 @@
       "code_sha256": "dc33f2d61e4fe24c804e44616b9b696188f27cd9095d294c057ca4f5a24815e6",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "manual_extra": true,
+    "status": "accepted",
+    "submission_id": "2195405074",
     "first_completed_at": "2026-11-08T12:08:16.643022-05:00",
     "topics": [
       "Strings"
