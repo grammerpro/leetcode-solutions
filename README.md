@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**29 unique problems archived** · **1 day practice streak** · **29/159 catalog problems completed**
+**30 unique problems archived** · **2 day practice streak** · **30/159 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 7 |
+| Local tests passed | 8 |
 | LeetCode Accepted | 7 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -22,7 +22,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Difficulty | Problems |
 | :--- | ---: |
 | Easy | 21 |
-| Medium | 8 |
+| Medium | 9 |
 | Hard | 0 |
 
 | Topic | Problems |
@@ -35,6 +35,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Hash Tables | 2 |
 | Math | 2 |
 | Strings | 2 |
+| Greedy | 1 |
 | Sliding Window | 1 |
 | Stacks | 1 |
 
@@ -42,6 +43,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | Greedy | Local tests passed | 2026-11-12 | [Source](Medium/best-time-to-buy-and-sell-stock-ii.py) |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math | Local tests passed | 2026-11-11 | [Source](Easy/palindrome-number.py) |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Strings | Local tests passed | 2026-11-08 | [Source](Easy/find-the-index-of-the-first-occurrence-in-a-string.py) |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | Bit Manipulation | Local tests passed | 2026-11-08 | [Source](Easy/counting-bits.py) |
@@ -72,5 +74,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-11-11. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-11-12. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->

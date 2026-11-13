@@ -525,5 +525,28 @@
       "Math"
     ],
     "solution_path": "Easy/palindrome-number.py"
+  },
+  {
+    "problem_id": "best-time-to-buy-and-sell-stock-ii",
+    "timestamp": "2026-11-12T21:00:02.998124-05:00",
+    "code_sha256": "1faaace0d0d83e08bfc88b0557b9edba5f9a80bf1cd734725f2c205e2cb9cf1e",
+    "title": "Best Time to Buy and Sell Stock II",
+    "topic": "Greedy",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "correct_code": "class Solution:\n    def maxProfit(self, prices: List[int]) -> int:\n        profit = 0\n        for day in range(1, len(prices)):\n            if prices[day] > prices[day - 1]:\n                profit += prices[day] - prices[day - 1]\n        return profit\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "best-time-to-buy-and-sell-stock-ii",
+      "cases_passed": 6,
+      "code_sha256": "1faaace0d0d83e08bfc88b0557b9edba5f9a80bf1cd734725f2c205e2cb9cf1e",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-12T21:00:02.998124-05:00",
+    "topics": [
+      "Greedy"
+    ],
+    "solution_path": "Medium/best-time-to-buy-and-sell-stock-ii.py"
   }
 ]
