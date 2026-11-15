@@ -12,8 +12,8 @@ Python solutions, organized by difficulty, with an honest record of practice and
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 4 |
-| LeetCode Accepted | 13 |
+| Local tests passed | 1 |
+| LeetCode Accepted | 16 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
 
@@ -46,9 +46,9 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graphs | Local tests passed | 2026-11-14 | [Source](Medium/course-schedule.py) |
-| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | Local tests passed | 2026-11-13 | [Source](Medium/combination-sum.py) |
-| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | Greedy | Local tests passed | 2026-11-12 | [Source](Medium/best-time-to-buy-and-sell-stock-ii.py) |
-| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math | Local tests passed | 2026-11-11 | [Source](Easy/palindrome-number.py) |
+| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | LeetCode Accepted | 2026-11-13 | [Source](Medium/combination-sum.py) |
+| [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | Greedy | LeetCode Accepted | 2026-11-12 | [Source](Medium/best-time-to-buy-and-sell-stock-ii.py) |
+| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math | LeetCode Accepted | 2026-11-11 | [Source](Easy/palindrome-number.py) |
 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | Strings | LeetCode Accepted | 2026-11-08 | [Source](Easy/find-the-index-of-the-first-occurrence-in-a-string.py) |
 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | Bit Manipulation | LeetCode Accepted | 2026-11-08 | [Source](Easy/counting-bits.py) |
 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | Math | LeetCode Accepted | 2026-10-04 | [Source](Easy/happy-number.py) |

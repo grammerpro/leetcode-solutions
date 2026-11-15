@@ -1,7 +1,7 @@
 # Problem: Palindrome Number
 # Topics: Math
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/palindrome-number/
 
 class Solution:
