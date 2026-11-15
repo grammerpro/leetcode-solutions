@@ -7,7 +7,7 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**33 unique problems archived** · **5 day practice streak** · **33/159 catalog problems completed**
+**33 unique problems archived** · **5 day practice streak** · **33/261 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
