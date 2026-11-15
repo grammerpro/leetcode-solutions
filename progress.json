@@ -603,5 +603,28 @@
       "Graphs"
     ],
     "solution_path": "Medium/course-schedule.py"
+  },
+  {
+    "problem_id": "insert-interval",
+    "timestamp": "2026-11-15T09:00:02.282016-05:00",
+    "code_sha256": "cbdc4a7e37df283c36b56bfb3f0202b527c2bb6c7c591dcb9e328f9da7355572",
+    "title": "Insert Interval",
+    "topic": "Intervals",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/insert-interval/",
+    "correct_code": "class Solution:\n    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:\n        start, end = newInterval\n        before, after = [], []\n        for interval in intervals:\n            if interval[1] < start:\n                before.append(interval)\n            elif interval[0] > end:\n                after.append(interval)\n            else:\n                start = min(start, interval[0])\n                end = max(end, interval[1])\n        return before + [[start, end]] + after\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "insert-interval",
+      "cases_passed": 7,
+      "code_sha256": "cbdc4a7e37df283c36b56bfb3f0202b527c2bb6c7c591dcb9e328f9da7355572",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-15T09:00:02.282016-05:00",
+    "topics": [
+      "Intervals"
+    ],
+    "solution_path": "Medium/insert-interval.py"
   }
 ]
