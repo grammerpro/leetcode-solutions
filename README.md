@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**31 unique problems archived** · **3 day practice streak** · **31/159 catalog problems completed**
+**32 unique problems archived** · **4 day practice streak** · **32/159 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 3 |
+| Local tests passed | 4 |
 | LeetCode Accepted | 13 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -22,7 +22,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Difficulty | Problems |
 | :--- | ---: |
 | Easy | 21 |
-| Medium | 10 |
+| Medium | 11 |
 | Hard | 0 |
 
 | Topic | Problems |
@@ -36,6 +36,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Math | 2 |
 | Strings | 2 |
 | Backtracking | 1 |
+| Graphs | 1 |
 | Greedy | 1 |
 | Sliding Window | 1 |
 | Stacks | 1 |
@@ -44,6 +45,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graphs | Local tests passed | 2026-11-14 | [Source](Medium/course-schedule.py) |
 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | Local tests passed | 2026-11-13 | [Source](Medium/combination-sum.py) |
 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | Greedy | Local tests passed | 2026-11-12 | [Source](Medium/best-time-to-buy-and-sell-stock-ii.py) |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math | Local tests passed | 2026-11-11 | [Source](Easy/palindrome-number.py) |
@@ -76,5 +78,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-11-13. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-11-14. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->

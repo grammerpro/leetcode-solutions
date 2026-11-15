@@ -577,5 +577,28 @@
       "Backtracking"
     ],
     "solution_path": "Medium/combination-sum.py"
+  },
+  {
+    "problem_id": "course-schedule",
+    "timestamp": "2026-11-14T21:00:03.800400-05:00",
+    "code_sha256": "63fa4c3193e13738175778f7e87e2db4e85452e1a85f2f704f48f370c970a1b9",
+    "title": "Course Schedule",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/course-schedule/",
+    "correct_code": "class Solution:\n    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:\n        following = [[] for _ in range(numCourses)]\n        waiting = [0] * numCourses\n        for course, required in prerequisites:\n            following[required].append(course)\n            waiting[course] += 1\n        ready = [course for course in range(numCourses) if waiting[course] == 0]\n        finished = 0\n        while ready:\n            course = ready.pop()\n            finished += 1\n            for later in following[course]:\n                waiting[later] -= 1\n                if waiting[later] == 0:\n                    ready.append(later)\n        return finished == numCourses\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "course-schedule",
+      "cases_passed": 7,
+      "code_sha256": "63fa4c3193e13738175778f7e87e2db4e85452e1a85f2f704f48f370c970a1b9",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-14T21:00:03.800400-05:00",
+    "topics": [
+      "Graphs"
+    ],
+    "solution_path": "Medium/course-schedule.py"
   }
 ]
