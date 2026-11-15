@@ -1,7 +1,7 @@
 # Problem: Course Schedule
 # Topics: Graphs
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/course-schedule/
 
 class Solution:

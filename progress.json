@@ -583,13 +583,13 @@
   },
   {
     "problem_id": "course-schedule",
-    "timestamp": "2026-11-14T21:00:03.800400-05:00",
+    "timestamp": "2026-11-15T09:00:15.803665-05:00",
     "code_sha256": "63fa4c3193e13738175778f7e87e2db4e85452e1a85f2f704f48f370c970a1b9",
+    "correct_code": "class Solution:\n    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:\n        following = [[] for _ in range(numCourses)]\n        waiting = [0] * numCourses\n        for course, required in prerequisites:\n            following[required].append(course)\n            waiting[course] += 1\n        ready = [course for course in range(numCourses) if waiting[course] == 0]\n        finished = 0\n        while ready:\n            course = ready.pop()\n            finished += 1\n            for later in following[course]:\n                waiting[later] -= 1\n                if waiting[later] == 0:\n                    ready.append(later)\n        return finished == numCourses\n",
+    "url": "https://leetcode.com/problems/course-schedule/",
     "title": "Course Schedule",
     "topic": "Graphs",
     "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/course-schedule/",
-    "correct_code": "class Solution:\n    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:\n        following = [[] for _ in range(numCourses)]\n        waiting = [0] * numCourses\n        for course, required in prerequisites:\n            following[required].append(course)\n            waiting[course] += 1\n        ready = [course for course in range(numCourses) if waiting[course] == 0]\n        finished = 0\n        while ready:\n            course = ready.pop()\n            finished += 1\n            for later in following[course]:\n                waiting[later] -= 1\n                if waiting[later] == 0:\n                    ready.append(later)\n        return finished == numCourses\n",
     "validation": {
       "status": "passed",
       "problem_id": "course-schedule",
@@ -597,7 +597,8 @@
       "code_sha256": "63fa4c3193e13738175778f7e87e2db4e85452e1a85f2f704f48f370c970a1b9",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2196662488",
     "first_completed_at": "2026-11-14T21:00:03.800400-05:00",
     "topics": [
       "Graphs"
@@ -606,13 +607,13 @@
   },
   {
     "problem_id": "insert-interval",
-    "timestamp": "2026-11-15T09:00:02.282016-05:00",
+    "timestamp": "2026-11-15T09:00:22.055163-05:00",
     "code_sha256": "cbdc4a7e37df283c36b56bfb3f0202b527c2bb6c7c591dcb9e328f9da7355572",
+    "correct_code": "class Solution:\n    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:\n        start, end = newInterval\n        before, after = [], []\n        for interval in intervals:\n            if interval[1] < start:\n                before.append(interval)\n            elif interval[0] > end:\n                after.append(interval)\n            else:\n                start = min(start, interval[0])\n                end = max(end, interval[1])\n        return before + [[start, end]] + after\n",
+    "url": "https://leetcode.com/problems/insert-interval/",
     "title": "Insert Interval",
     "topic": "Intervals",
     "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/insert-interval/",
-    "correct_code": "class Solution:\n    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:\n        start, end = newInterval\n        before, after = [], []\n        for interval in intervals:\n            if interval[1] < start:\n                before.append(interval)\n            elif interval[0] > end:\n                after.append(interval)\n            else:\n                start = min(start, interval[0])\n                end = max(end, interval[1])\n        return before + [[start, end]] + after\n",
     "validation": {
       "status": "passed",
       "problem_id": "insert-interval",
@@ -620,7 +621,8 @@
       "code_sha256": "cbdc4a7e37df283c36b56bfb3f0202b527c2bb6c7c591dcb9e328f9da7355572",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2196662764",
     "first_completed_at": "2026-11-15T09:00:02.282016-05:00",
     "topics": [
       "Intervals"

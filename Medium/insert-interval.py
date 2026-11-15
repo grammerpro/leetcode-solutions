@@ -1,7 +1,7 @@
 # Problem: Insert Interval
 # Topics: Intervals
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/insert-interval/
 
 class Solution:

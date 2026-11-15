@@ -12,8 +12,8 @@ Python solutions, organized by difficulty, with an honest record of practice and
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 2 |
-| LeetCode Accepted | 16 |
+| Local tests passed | 0 |
+| LeetCode Accepted | 18 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
 
@@ -46,8 +46,8 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Intervals | Local tests passed | 2026-11-15 | [Source](Medium/insert-interval.py) |
-| [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graphs | Local tests passed | 2026-11-14 | [Source](Medium/course-schedule.py) |
+| [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Intervals | LeetCode Accepted | 2026-11-15 | [Source](Medium/insert-interval.py) |
+| [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | Graphs | LeetCode Accepted | 2026-11-14 | [Source](Medium/course-schedule.py) |
 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Backtracking | LeetCode Accepted | 2026-11-13 | [Source](Medium/combination-sum.py) |
 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | Greedy | LeetCode Accepted | 2026-11-12 | [Source](Medium/best-time-to-buy-and-sell-stock-ii.py) |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | Math | LeetCode Accepted | 2026-11-11 | [Source](Easy/palindrome-number.py) |
