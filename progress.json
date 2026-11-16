@@ -628,5 +628,28 @@
       "Intervals"
     ],
     "solution_path": "Medium/insert-interval.py"
+  },
+  {
+    "problem_id": "add-two-numbers",
+    "timestamp": "2026-11-16T02:59:35.098962-05:00",
+    "code_sha256": "f949cfc655ea9e8e86ac6745e5a81b7e10d1c0e7cad5f5666d060e77c640560f",
+    "title": "Add Two Numbers",
+    "topic": "Linked Lists",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/add-two-numbers/",
+    "correct_code": "class Solution:\n    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:\n        dummy = ListNode()\n        tail = dummy\n        carry = 0\n        while l1 or l2 or carry:\n            total = carry\n            if l1:\n                total += l1.val\n                l1 = l1.next\n            if l2:\n                total += l2.val\n                l2 = l2.next\n            carry, digit = divmod(total, 10)\n            tail.next = ListNode(digit)\n            tail = tail.next\n        return dummy.next\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "add-two-numbers",
+      "cases_passed": 5,
+      "code_sha256": "f949cfc655ea9e8e86ac6745e5a81b7e10d1c0e7cad5f5666d060e77c640560f",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-16T02:59:35.098962-05:00",
+    "topics": [
+      "Linked Lists"
+    ],
+    "solution_path": "Medium/add-two-numbers.py"
   }
 ]
