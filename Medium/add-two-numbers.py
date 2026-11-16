@@ -1,7 +1,7 @@
 # Problem: Add Two Numbers
 # Topics: Linked Lists
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/add-two-numbers/
 
 class Solution:
