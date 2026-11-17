@@ -652,5 +652,28 @@
       "Linked Lists"
     ],
     "solution_path": "Medium/add-two-numbers.py"
+  },
+  {
+    "problem_id": "diagonal-traverse",
+    "timestamp": "2026-11-17T04:14:19.543650-05:00",
+    "code_sha256": "c3e614893386dc36a928313611460e9762903ce6afdd237bd2fd41dfbf97a261",
+    "title": "Diagonal Traverse",
+    "topic": "Matrix",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/diagonal-traverse/",
+    "correct_code": "class Solution:\n    def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:\n        rows, columns = len(mat), len(mat[0])\n        order = []\n        for total in range(rows + columns - 1):\n            first_row = max(0, total - columns + 1)\n            last_row = min(rows - 1, total)\n            diagonal = [mat[row][total - row] for row in range(first_row, last_row + 1)]\n            if total % 2 == 0:\n                diagonal.reverse()\n            order.extend(diagonal)\n        return order\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "diagonal-traverse",
+      "cases_passed": 6,
+      "code_sha256": "c3e614893386dc36a928313611460e9762903ce6afdd237bd2fd41dfbf97a261",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-17T04:14:19.543650-05:00",
+    "topics": [
+      "Matrix"
+    ],
+    "solution_path": "Medium/diagonal-traverse.py"
   }
 ]
