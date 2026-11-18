@@ -1,7 +1,7 @@
 # Problem: Diagonal Traverse
 # Topics: Matrix
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/diagonal-traverse/
 
 class Solution:
