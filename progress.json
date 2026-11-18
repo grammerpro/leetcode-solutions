@@ -676,5 +676,28 @@
       "Matrix"
     ],
     "solution_path": "Medium/diagonal-traverse.py"
+  },
+  {
+    "problem_id": "find-k-pairs-with-smallest-sums",
+    "timestamp": "2026-11-18T03:33:31.380048-05:00",
+    "code_sha256": "78ea261b5d4a9358b908d617988e03e67c3ed65175eb6be5004b2469ca46d1c4",
+    "title": "Find K Pairs with Smallest Sums",
+    "topic": "Heaps",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/",
+    "correct_code": "import heapq\n\n\nclass Solution:\n    def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:\n        if not nums1 or not nums2:\n            return []\n        heap = [(nums1[i] + nums2[0], i, 0) for i in range(min(k, len(nums1)))]\n        heapq.heapify(heap)\n        pairs = []\n        while heap and len(pairs) < k:\n            _, i, j = heapq.heappop(heap)\n            pairs.append([nums1[i], nums2[j]])\n            if j + 1 < len(nums2):\n                heapq.heappush(heap, (nums1[i] + nums2[j + 1], i, j + 1))\n        return pairs\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "find-k-pairs-with-smallest-sums",
+      "cases_passed": 4,
+      "code_sha256": "78ea261b5d4a9358b908d617988e03e67c3ed65175eb6be5004b2469ca46d1c4",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-18T03:33:31.380048-05:00",
+    "topics": [
+      "Heaps"
+    ],
+    "solution_path": "Medium/find-k-pairs-with-smallest-sums.py"
   }
 ]

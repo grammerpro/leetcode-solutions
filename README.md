@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**35 unique problems archived** · **7 day practice streak** · **35/261 catalog problems completed**
+**36 unique problems archived** · **8 day practice streak** · **36/261 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 0 |
+| Local tests passed | 1 |
 | LeetCode Accepted | 20 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -22,7 +22,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Difficulty | Problems |
 | :--- | ---: |
 | Easy | 21 |
-| Medium | 14 |
+| Medium | 15 |
 | Hard | 0 |
 
 | Topic | Problems |
@@ -38,6 +38,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Backtracking | 1 |
 | Graphs | 1 |
 | Greedy | 1 |
+| Heaps | 1 |
 | Intervals | 1 |
 | Linked Lists | 1 |
 | Matrix | 1 |
@@ -48,6 +49,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | Medium | Heaps | Local tests passed | 2026-11-18 | [Source](Medium/find-k-pairs-with-smallest-sums.py) |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | Medium | Matrix | LeetCode Accepted | 2026-11-17 | [Source](Medium/diagonal-traverse.py) |
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | Linked Lists | LeetCode Accepted | 2026-11-16 | [Source](Medium/add-two-numbers.py) |
 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | Intervals | LeetCode Accepted | 2026-11-15 | [Source](Medium/insert-interval.py) |
@@ -84,5 +86,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-11-17. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-11-18. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->
