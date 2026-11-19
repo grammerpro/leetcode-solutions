@@ -1,7 +1,7 @@
 # Problem: Find K Pairs with Smallest Sums
 # Topics: Heaps
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 
 import heapq
