@@ -1,7 +1,7 @@
 # Problem: 01 Matrix
 # Topics: Graphs
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/01-matrix/
 
 from collections import deque

@@ -12,8 +12,8 @@ Python solutions, organized by difficulty, with an honest record of practice and
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 1 |
-| LeetCode Accepted | 21 |
+| Local tests passed | 0 |
+| LeetCode Accepted | 22 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
 
@@ -49,7 +49,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | Graphs | Local tests passed | 2026-11-19 | [Source](Medium/01-matrix.py) |
+| [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | Graphs | LeetCode Accepted | 2026-11-19 | [Source](Medium/01-matrix.py) |
 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | Medium | Heaps | LeetCode Accepted | 2026-11-18 | [Source](Medium/find-k-pairs-with-smallest-sums.py) |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | Medium | Matrix | LeetCode Accepted | 2026-11-17 | [Source](Medium/diagonal-traverse.py) |
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | Linked Lists | LeetCode Accepted | 2026-11-16 | [Source](Medium/add-two-numbers.py) |

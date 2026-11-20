@@ -703,13 +703,13 @@
   },
   {
     "problem_id": "01-matrix",
-    "timestamp": "2026-11-19T03:49:20.495472-05:00",
+    "timestamp": "2026-11-19T21:00:14.228289-05:00",
     "code_sha256": "1b6f2a760d95440680ac3bce882d7e719b51221155f3861d8ddd1e2f814b491c",
+    "correct_code": "from collections import deque\n\n\nclass Solution:\n    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:\n        rows, columns = len(mat), len(mat[0])\n        distance = [[-1] * columns for _ in range(rows)]\n        queue = deque()\n        for row in range(rows):\n            for column in range(columns):\n                if mat[row][column] == 0:\n                    distance[row][column] = 0\n                    queue.append((row, column))\n        while queue:\n            row, column = queue.popleft()\n            for next_row, next_column in ((row + 1, column), (row - 1, column),\n                                          (row, column + 1), (row, column - 1)):\n                if (0 <= next_row < rows and 0 <= next_column < columns\n                        and distance[next_row][next_column] == -1):\n                    distance[next_row][next_column] = distance[row][column] + 1\n                    queue.append((next_row, next_column))\n        return distance\n",
+    "url": "https://leetcode.com/problems/01-matrix/",
     "title": "01 Matrix",
     "topic": "Graphs",
     "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/01-matrix/",
-    "correct_code": "from collections import deque\n\n\nclass Solution:\n    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:\n        rows, columns = len(mat), len(mat[0])\n        distance = [[-1] * columns for _ in range(rows)]\n        queue = deque()\n        for row in range(rows):\n            for column in range(columns):\n                if mat[row][column] == 0:\n                    distance[row][column] = 0\n                    queue.append((row, column))\n        while queue:\n            row, column = queue.popleft()\n            for next_row, next_column in ((row + 1, column), (row - 1, column),\n                                          (row, column + 1), (row, column - 1)):\n                if (0 <= next_row < rows and 0 <= next_column < columns\n                        and distance[next_row][next_column] == -1):\n                    distance[next_row][next_column] = distance[row][column] + 1\n                    queue.append((next_row, next_column))\n        return distance\n",
     "validation": {
       "status": "passed",
       "problem_id": "01-matrix",
@@ -717,7 +717,8 @@
       "code_sha256": "1b6f2a760d95440680ac3bce882d7e719b51221155f3861d8ddd1e2f814b491c",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2199678954",
     "first_completed_at": "2026-11-19T03:49:20.495472-05:00",
     "topics": [
       "Graphs"
