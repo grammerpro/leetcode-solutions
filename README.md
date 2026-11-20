@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**37 unique problems archived** · **9 day practice streak** · **37/261 catalog problems completed**
+**38 unique problems archived** · **10 day practice streak** · **38/261 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 0 |
+| Local tests passed | 1 |
 | LeetCode Accepted | 22 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -21,7 +21,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Difficulty | Problems |
 | :--- | ---: |
-| Easy | 21 |
+| Easy | 22 |
 | Medium | 16 |
 | Hard | 0 |
 
@@ -33,11 +33,11 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Binary Search | 2 |
 | Bit Manipulation | 2 |
 | Graphs | 2 |
+| Greedy | 2 |
 | Hash Tables | 2 |
 | Math | 2 |
 | Strings | 2 |
 | Backtracking | 1 |
-| Greedy | 1 |
 | Heaps | 1 |
 | Intervals | 1 |
 | Linked Lists | 1 |
@@ -49,6 +49,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Greedy | Local tests passed | 2026-11-20 | [Source](Easy/assign-cookies.py) |
 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | Graphs | LeetCode Accepted | 2026-11-19 | [Source](Medium/01-matrix.py) |
 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | Medium | Heaps | LeetCode Accepted | 2026-11-18 | [Source](Medium/find-k-pairs-with-smallest-sums.py) |
 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | Medium | Matrix | LeetCode Accepted | 2026-11-17 | [Source](Medium/diagonal-traverse.py) |
@@ -87,5 +88,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-11-19. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-11-20. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->
