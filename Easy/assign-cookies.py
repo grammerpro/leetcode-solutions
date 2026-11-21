@@ -1,7 +1,7 @@
 # Problem: Assign Cookies
 # Topics: Greedy
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/assign-cookies/
 
 class Solution:

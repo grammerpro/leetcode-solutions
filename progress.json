@@ -727,13 +727,13 @@
   },
   {
     "problem_id": "assign-cookies",
-    "timestamp": "2026-11-20T03:34:05.105062-05:00",
+    "timestamp": "2026-11-20T21:00:35.013671-05:00",
     "code_sha256": "6962fb53908ba1c4cd9bc99950ac53bf265bcbde114e1233687a883a81bb7660",
+    "correct_code": "class Solution:\n    def findContentChildren(self, g: List[int], s: List[int]) -> int:\n        g.sort()\n        s.sort()\n        child = 0\n        for cookie in s:\n            if child < len(g) and cookie >= g[child]:\n                child += 1\n        return child\n",
+    "url": "https://leetcode.com/problems/assign-cookies/",
     "title": "Assign Cookies",
     "topic": "Greedy",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/assign-cookies/",
-    "correct_code": "class Solution:\n    def findContentChildren(self, g: List[int], s: List[int]) -> int:\n        g.sort()\n        s.sort()\n        child = 0\n        for cookie in s:\n            if child < len(g) and cookie >= g[child]:\n                child += 1\n        return child\n",
     "validation": {
       "status": "passed",
       "problem_id": "assign-cookies",
@@ -741,7 +741,8 @@
       "code_sha256": "6962fb53908ba1c4cd9bc99950ac53bf265bcbde114e1233687a883a81bb7660",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2200280003",
     "first_completed_at": "2026-11-20T03:34:05.105062-05:00",
     "topics": [
       "Greedy"
