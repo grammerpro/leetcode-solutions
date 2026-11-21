@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**38 unique problems archived** · **10 day practice streak** · **38/261 catalog problems completed**
+**39 unique problems archived** · **11 day practice streak** · **39/261 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 0 |
+| Local tests passed | 1 |
 | LeetCode Accepted | 23 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -22,7 +22,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Difficulty | Problems |
 | :--- | ---: |
 | Easy | 22 |
-| Medium | 16 |
+| Medium | 17 |
 | Hard | 0 |
 
 | Topic | Problems |
@@ -36,6 +36,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Greedy | 2 |
 | Hash Tables | 2 |
 | Math | 2 |
+| Stacks | 2 |
 | Strings | 2 |
 | Backtracking | 1 |
 | Heaps | 1 |
@@ -43,12 +44,12 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Linked Lists | 1 |
 | Matrix | 1 |
 | Sliding Window | 1 |
-| Stacks | 1 |
 
 ### Solution index
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | Stacks | Local tests passed | 2026-11-21 | [Source](Medium/asteroid-collision.py) |
 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Greedy | LeetCode Accepted | 2026-11-20 | [Source](Easy/assign-cookies.py) |
 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | Graphs | LeetCode Accepted | 2026-11-19 | [Source](Medium/01-matrix.py) |
 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | Medium | Heaps | LeetCode Accepted | 2026-11-18 | [Source](Medium/find-k-pairs-with-smallest-sums.py) |
@@ -88,5 +89,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-11-20. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-11-21. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->

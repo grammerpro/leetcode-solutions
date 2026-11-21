@@ -748,5 +748,28 @@
       "Greedy"
     ],
     "solution_path": "Easy/assign-cookies.py"
+  },
+  {
+    "problem_id": "asteroid-collision",
+    "timestamp": "2026-11-21T03:18:04.667161-05:00",
+    "code_sha256": "78395be59c542ff2281a9206513a31b9bfc2859d27b3b0cba733c930b77a6edd",
+    "title": "Asteroid Collision",
+    "topic": "Stacks",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/asteroid-collision/",
+    "correct_code": "class Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        for asteroid in asteroids:\n            alive = True\n            while alive and asteroid < 0 and stack and stack[-1] > 0:\n                if stack[-1] < -asteroid:\n                    stack.pop()\n                    continue\n                if stack[-1] == -asteroid:\n                    stack.pop()\n                alive = False\n            if alive:\n                stack.append(asteroid)\n        return stack\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "asteroid-collision",
+      "cases_passed": 5,
+      "code_sha256": "78395be59c542ff2281a9206513a31b9bfc2859d27b3b0cba733c930b77a6edd",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-21T03:18:04.667161-05:00",
+    "topics": [
+      "Stacks"
+    ],
+    "solution_path": "Medium/asteroid-collision.py"
   }
 ]
