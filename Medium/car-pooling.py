@@ -1,7 +1,7 @@
 # Problem: Car Pooling
 # Topics: Intervals
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/car-pooling/
 
 class Solution:

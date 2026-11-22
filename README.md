@@ -12,8 +12,8 @@ Python solutions, organized by difficulty, with an honest record of practice and
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 2 |
-| LeetCode Accepted | 23 |
+| Local tests passed | 0 |
+| LeetCode Accepted | 25 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
 
@@ -49,8 +49,8 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [Car Pooling](https://leetcode.com/problems/car-pooling/) | Medium | Intervals | Local tests passed | 2026-11-22 | [Source](Medium/car-pooling.py) |
-| [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | Stacks | Local tests passed | 2026-11-21 | [Source](Medium/asteroid-collision.py) |
+| [Car Pooling](https://leetcode.com/problems/car-pooling/) | Medium | Intervals | LeetCode Accepted | 2026-11-22 | [Source](Medium/car-pooling.py) |
+| [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | Stacks | LeetCode Accepted | 2026-11-21 | [Source](Medium/asteroid-collision.py) |
 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Greedy | LeetCode Accepted | 2026-11-20 | [Source](Easy/assign-cookies.py) |
 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | Graphs | LeetCode Accepted | 2026-11-19 | [Source](Medium/01-matrix.py) |
 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | Medium | Heaps | LeetCode Accepted | 2026-11-18 | [Source](Medium/find-k-pairs-with-smallest-sums.py) |

@@ -751,13 +751,13 @@
   },
   {
     "problem_id": "asteroid-collision",
-    "timestamp": "2026-11-21T03:18:04.667161-05:00",
+    "timestamp": "2026-11-22T09:00:16.636356-05:00",
     "code_sha256": "78395be59c542ff2281a9206513a31b9bfc2859d27b3b0cba733c930b77a6edd",
+    "correct_code": "class Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        for asteroid in asteroids:\n            alive = True\n            while alive and asteroid < 0 and stack and stack[-1] > 0:\n                if stack[-1] < -asteroid:\n                    stack.pop()\n                    continue\n                if stack[-1] == -asteroid:\n                    stack.pop()\n                alive = False\n            if alive:\n                stack.append(asteroid)\n        return stack\n",
+    "url": "https://leetcode.com/problems/asteroid-collision/",
     "title": "Asteroid Collision",
     "topic": "Stacks",
     "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/asteroid-collision/",
-    "correct_code": "class Solution:\n    def asteroidCollision(self, asteroids: List[int]) -> List[int]:\n        stack = []\n        for asteroid in asteroids:\n            alive = True\n            while alive and asteroid < 0 and stack and stack[-1] > 0:\n                if stack[-1] < -asteroid:\n                    stack.pop()\n                    continue\n                if stack[-1] == -asteroid:\n                    stack.pop()\n                alive = False\n            if alive:\n                stack.append(asteroid)\n        return stack\n",
     "validation": {
       "status": "passed",
       "problem_id": "asteroid-collision",
@@ -765,7 +765,8 @@
       "code_sha256": "78395be59c542ff2281a9206513a31b9bfc2859d27b3b0cba733c930b77a6edd",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2201304153",
     "first_completed_at": "2026-11-21T03:18:04.667161-05:00",
     "topics": [
       "Stacks"
@@ -774,13 +775,13 @@
   },
   {
     "problem_id": "car-pooling",
-    "timestamp": "2026-11-22T02:59:42.762741-05:00",
+    "timestamp": "2026-11-22T09:00:23.582625-05:00",
     "code_sha256": "2e9e630ed815641c490291c853d6355acea6f0ce8bc5950eefd9a9130b3cec20",
+    "correct_code": "class Solution:\n    def carPooling(self, trips: List[List[int]], capacity: int) -> bool:\n        changes = [0] * 1002\n        for passengers, start, end in trips:\n            changes[start] += passengers\n            changes[end] -= passengers\n        riding = 0\n        for change in changes:\n            riding += change\n            if riding > capacity:\n                return False\n        return True\n",
+    "url": "https://leetcode.com/problems/car-pooling/",
     "title": "Car Pooling",
     "topic": "Intervals",
     "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/car-pooling/",
-    "correct_code": "class Solution:\n    def carPooling(self, trips: List[List[int]], capacity: int) -> bool:\n        changes = [0] * 1002\n        for passengers, start, end in trips:\n            changes[start] += passengers\n            changes[end] -= passengers\n        riding = 0\n        for change in changes:\n            riding += change\n            if riding > capacity:\n                return False\n        return True\n",
     "validation": {
       "status": "passed",
       "problem_id": "car-pooling",
@@ -788,7 +789,8 @@
       "code_sha256": "2e9e630ed815641c490291c853d6355acea6f0ce8bc5950eefd9a9130b3cec20",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2201304388",
     "first_completed_at": "2026-11-22T02:59:42.762741-05:00",
     "topics": [
       "Intervals"

@@ -1,7 +1,7 @@
 # Problem: Asteroid Collision
 # Topics: Stacks
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/asteroid-collision/
 
 class Solution:
