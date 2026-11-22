@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**39 unique problems archived** · **11 day practice streak** · **39/261 catalog problems completed**
+**40 unique problems archived** · **12 day practice streak** · **40/261 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 1 |
+| Local tests passed | 2 |
 | LeetCode Accepted | 23 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -22,7 +22,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Difficulty | Problems |
 | :--- | ---: |
 | Easy | 22 |
-| Medium | 17 |
+| Medium | 18 |
 | Hard | 0 |
 
 | Topic | Problems |
@@ -35,12 +35,12 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Graphs | 2 |
 | Greedy | 2 |
 | Hash Tables | 2 |
+| Intervals | 2 |
 | Math | 2 |
 | Stacks | 2 |
 | Strings | 2 |
 | Backtracking | 1 |
 | Heaps | 1 |
-| Intervals | 1 |
 | Linked Lists | 1 |
 | Matrix | 1 |
 | Sliding Window | 1 |
@@ -49,6 +49,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Car Pooling](https://leetcode.com/problems/car-pooling/) | Medium | Intervals | Local tests passed | 2026-11-22 | [Source](Medium/car-pooling.py) |
 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | Stacks | Local tests passed | 2026-11-21 | [Source](Medium/asteroid-collision.py) |
 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Greedy | LeetCode Accepted | 2026-11-20 | [Source](Easy/assign-cookies.py) |
 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | Medium | Graphs | LeetCode Accepted | 2026-11-19 | [Source](Medium/01-matrix.py) |
@@ -89,5 +90,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-11-21. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-11-22. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->

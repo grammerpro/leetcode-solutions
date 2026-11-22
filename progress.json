@@ -771,5 +771,28 @@
       "Stacks"
     ],
     "solution_path": "Medium/asteroid-collision.py"
+  },
+  {
+    "problem_id": "car-pooling",
+    "timestamp": "2026-11-22T02:59:42.762741-05:00",
+    "code_sha256": "2e9e630ed815641c490291c853d6355acea6f0ce8bc5950eefd9a9130b3cec20",
+    "title": "Car Pooling",
+    "topic": "Intervals",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/car-pooling/",
+    "correct_code": "class Solution:\n    def carPooling(self, trips: List[List[int]], capacity: int) -> bool:\n        changes = [0] * 1002\n        for passengers, start, end in trips:\n            changes[start] += passengers\n            changes[end] -= passengers\n        riding = 0\n        for change in changes:\n            riding += change\n            if riding > capacity:\n                return False\n        return True\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "car-pooling",
+      "cases_passed": 5,
+      "code_sha256": "2e9e630ed815641c490291c853d6355acea6f0ce8bc5950eefd9a9130b3cec20",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-22T02:59:42.762741-05:00",
+    "topics": [
+      "Intervals"
+    ],
+    "solution_path": "Medium/car-pooling.py"
   }
 ]
