@@ -796,5 +796,28 @@
       "Intervals"
     ],
     "solution_path": "Medium/car-pooling.py"
+  },
+  {
+    "problem_id": "combination-sum-ii",
+    "timestamp": "2026-11-23T04:07:12.598108-05:00",
+    "code_sha256": "714b369120f3740f15c18d1bf5da67c605d9416c1670548f9f5954cadc454774",
+    "title": "Combination Sum II",
+    "topic": "Backtracking",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/combination-sum-ii/",
+    "correct_code": "class Solution:\n    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:\n        candidates.sort()\n        result = []\n        current = []\n\n        def extend(start, remaining):\n            if remaining == 0:\n                result.append(current[:])\n                return\n            for index in range(start, len(candidates)):\n                value = candidates[index]\n                if value > remaining:\n                    break\n                if index > start and value == candidates[index - 1]:\n                    continue\n                current.append(value)\n                extend(index + 1, remaining - value)\n                current.pop()\n\n        extend(0, target)\n        return result\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "combination-sum-ii",
+      "cases_passed": 5,
+      "code_sha256": "714b369120f3740f15c18d1bf5da67c605d9416c1670548f9f5954cadc454774",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-23T04:07:12.598108-05:00",
+    "topics": [
+      "Backtracking"
+    ],
+    "solution_path": "Medium/combination-sum-ii.py"
   }
 ]
