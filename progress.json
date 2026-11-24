@@ -819,5 +819,28 @@
       "Backtracking"
     ],
     "solution_path": "Medium/combination-sum-ii.py"
+  },
+  {
+    "problem_id": "contains-duplicate-ii",
+    "timestamp": "2026-11-24T05:55:30.319421-05:00",
+    "code_sha256": "247f2e37a29aeca3543e5b34a3d3cf854f55d2da7b5ad552fabe80cece5ab24c",
+    "title": "Contains Duplicate II",
+    "topic": "Sliding Window",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/contains-duplicate-ii/",
+    "correct_code": "class Solution:\n    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:\n        last_seen = {}\n        for index, value in enumerate(nums):\n            if value in last_seen and index - last_seen[value] <= k:\n                return True\n            last_seen[value] = index\n        return False\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "contains-duplicate-ii",
+      "cases_passed": 5,
+      "code_sha256": "247f2e37a29aeca3543e5b34a3d3cf854f55d2da7b5ad552fabe80cece5ab24c",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-24T05:55:30.319421-05:00",
+    "topics": [
+      "Sliding Window"
+    ],
+    "solution_path": "Easy/contains-duplicate-ii.py"
   }
 ]
