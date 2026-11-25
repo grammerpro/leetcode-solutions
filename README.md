@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**42 unique problems archived** · **14 day practice streak** · **42/261 catalog problems completed**
+**43 unique problems archived** · **15 day practice streak** · **43/261 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 0 |
+| Local tests passed | 1 |
 | LeetCode Accepted | 27 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -21,7 +21,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Difficulty | Problems |
 | :--- | ---: |
-| Easy | 23 |
+| Easy | 24 |
 | Medium | 19 |
 | Hard | 0 |
 
@@ -37,18 +37,19 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Greedy | 2 |
 | Hash Tables | 2 |
 | Intervals | 2 |
+| Linked Lists | 2 |
 | Math | 2 |
 | Sliding Window | 2 |
 | Stacks | 2 |
 | Strings | 2 |
 | Heaps | 1 |
-| Linked Lists | 1 |
 | Matrix | 1 |
 
 ### Solution index
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | Linked Lists | Local tests passed | 2026-11-25 | [Source](Easy/convert-binary-number-in-a-linked-list-to-integer.py) |
 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | Sliding Window | LeetCode Accepted | 2026-11-24 | [Source](Easy/contains-duplicate-ii.py) |
 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | Backtracking | LeetCode Accepted | 2026-11-23 | [Source](Medium/combination-sum-ii.py) |
 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | Medium | Intervals | LeetCode Accepted | 2026-11-22 | [Source](Medium/car-pooling.py) |
@@ -92,5 +93,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-11-24. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-11-25. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->

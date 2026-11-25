@@ -844,5 +844,28 @@
       "Sliding Window"
     ],
     "solution_path": "Easy/contains-duplicate-ii.py"
+  },
+  {
+    "problem_id": "convert-binary-number-in-a-linked-list-to-integer",
+    "timestamp": "2026-11-25T04:52:21.609318-05:00",
+    "code_sha256": "e82da4675b1bf7c945793ab7ea2c43f30da79a45fa5feed2257c45f8f2adb1cd",
+    "title": "Convert Binary Number in a Linked List to Integer",
+    "topic": "Linked Lists",
+    "difficulty": "Easy",
+    "url": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
+    "correct_code": "class Solution:\n    def getDecimalValue(self, head: Optional[ListNode]) -> int:\n        value = 0\n        while head:\n            value = value * 2 + head.val\n            head = head.next\n        return value\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "convert-binary-number-in-a-linked-list-to-integer",
+      "cases_passed": 5,
+      "code_sha256": "e82da4675b1bf7c945793ab7ea2c43f30da79a45fa5feed2257c45f8f2adb1cd",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-25T04:52:21.609318-05:00",
+    "topics": [
+      "Linked Lists"
+    ],
+    "solution_path": "Easy/convert-binary-number-in-a-linked-list-to-integer.py"
   }
 ]
