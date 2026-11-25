@@ -1,7 +1,7 @@
 # Problem: Contains Duplicate II
 # Topics: Sliding Window
 # Difficulty: Easy
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/contains-duplicate-ii/
 
 class Solution:

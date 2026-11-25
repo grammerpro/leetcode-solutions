@@ -12,8 +12,8 @@ Python solutions, organized by difficulty, with an honest record of practice and
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 2 |
-| LeetCode Accepted | 25 |
+| Local tests passed | 0 |
+| LeetCode Accepted | 27 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
 
@@ -49,8 +49,8 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | Sliding Window | Local tests passed | 2026-11-24 | [Source](Easy/contains-duplicate-ii.py) |
-| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | Backtracking | Local tests passed | 2026-11-23 | [Source](Medium/combination-sum-ii.py) |
+| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | Sliding Window | LeetCode Accepted | 2026-11-24 | [Source](Easy/contains-duplicate-ii.py) |
+| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | Backtracking | LeetCode Accepted | 2026-11-23 | [Source](Medium/combination-sum-ii.py) |
 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | Medium | Intervals | LeetCode Accepted | 2026-11-22 | [Source](Medium/car-pooling.py) |
 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | Stacks | LeetCode Accepted | 2026-11-21 | [Source](Medium/asteroid-collision.py) |
 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Greedy | LeetCode Accepted | 2026-11-20 | [Source](Easy/assign-cookies.py) |

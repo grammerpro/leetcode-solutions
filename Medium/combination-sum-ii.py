@@ -1,7 +1,7 @@
 # Problem: Combination Sum II
 # Topics: Backtracking
 # Difficulty: Medium
-# Evidence: Local tests passed
+# Evidence: LeetCode Accepted
 # Link: https://leetcode.com/problems/combination-sum-ii/
 
 class Solution:

@@ -799,13 +799,13 @@
   },
   {
     "problem_id": "combination-sum-ii",
-    "timestamp": "2026-11-23T04:07:12.598108-05:00",
+    "timestamp": "2026-11-24T21:00:08.287542-05:00",
     "code_sha256": "714b369120f3740f15c18d1bf5da67c605d9416c1670548f9f5954cadc454774",
+    "correct_code": "class Solution:\n    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:\n        candidates.sort()\n        result = []\n        current = []\n\n        def extend(start, remaining):\n            if remaining == 0:\n                result.append(current[:])\n                return\n            for index in range(start, len(candidates)):\n                value = candidates[index]\n                if value > remaining:\n                    break\n                if index > start and value == candidates[index - 1]:\n                    continue\n                current.append(value)\n                extend(index + 1, remaining - value)\n                current.pop()\n\n        extend(0, target)\n        return result\n",
+    "url": "https://leetcode.com/problems/combination-sum-ii/",
     "title": "Combination Sum II",
     "topic": "Backtracking",
     "difficulty": "Medium",
-    "url": "https://leetcode.com/problems/combination-sum-ii/",
-    "correct_code": "class Solution:\n    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:\n        candidates.sort()\n        result = []\n        current = []\n\n        def extend(start, remaining):\n            if remaining == 0:\n                result.append(current[:])\n                return\n            for index in range(start, len(candidates)):\n                value = candidates[index]\n                if value > remaining:\n                    break\n                if index > start and value == candidates[index - 1]:\n                    continue\n                current.append(value)\n                extend(index + 1, remaining - value)\n                current.pop()\n\n        extend(0, target)\n        return result\n",
     "validation": {
       "status": "passed",
       "problem_id": "combination-sum-ii",
@@ -813,7 +813,8 @@
       "code_sha256": "714b369120f3740f15c18d1bf5da67c605d9416c1670548f9f5954cadc454774",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2202920476",
     "first_completed_at": "2026-11-23T04:07:12.598108-05:00",
     "topics": [
       "Backtracking"
@@ -822,13 +823,13 @@
   },
   {
     "problem_id": "contains-duplicate-ii",
-    "timestamp": "2026-11-24T05:55:30.319421-05:00",
+    "timestamp": "2026-11-24T21:00:19.080711-05:00",
     "code_sha256": "247f2e37a29aeca3543e5b34a3d3cf854f55d2da7b5ad552fabe80cece5ab24c",
+    "correct_code": "class Solution:\n    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:\n        last_seen = {}\n        for index, value in enumerate(nums):\n            if value in last_seen and index - last_seen[value] <= k:\n                return True\n            last_seen[value] = index\n        return False\n",
+    "url": "https://leetcode.com/problems/contains-duplicate-ii/",
     "title": "Contains Duplicate II",
     "topic": "Sliding Window",
     "difficulty": "Easy",
-    "url": "https://leetcode.com/problems/contains-duplicate-ii/",
-    "correct_code": "class Solution:\n    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:\n        last_seen = {}\n        for index, value in enumerate(nums):\n            if value in last_seen and index - last_seen[value] <= k:\n                return True\n            last_seen[value] = index\n        return False\n",
     "validation": {
       "status": "passed",
       "problem_id": "contains-duplicate-ii",
@@ -836,7 +837,8 @@
       "code_sha256": "247f2e37a29aeca3543e5b34a3d3cf854f55d2da7b5ad552fabe80cece5ab24c",
       "validator": "offline-v1"
     },
-    "status": "locally_validated",
+    "status": "accepted",
+    "submission_id": "2202920568",
     "first_completed_at": "2026-11-24T05:55:30.319421-05:00",
     "topics": [
       "Sliding Window"
