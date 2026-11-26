@@ -867,5 +867,28 @@
       "Linked Lists"
     ],
     "solution_path": "Easy/convert-binary-number-in-a-linked-list-to-integer.py"
+  },
+  {
+    "problem_id": "furthest-building-you-can-reach",
+    "timestamp": "2026-11-26T04:31:53.486829-05:00",
+    "code_sha256": "5b23fb2112ff581ec0aa0d6cb886654cb51e1c6d71a44f84734128c690b63c41",
+    "title": "Furthest Building You Can Reach",
+    "topic": "Heaps",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/furthest-building-you-can-reach/",
+    "correct_code": "import heapq\n\n\nclass Solution:\n    def furthestBuilding(self, heights: List[int], bricks: int, ladders: int) -> int:\n        # Ladders cover the largest climbs seen so far; bricks pay for the rest.\n        largest_climbs = []\n        for index in range(len(heights) - 1):\n            climb = heights[index + 1] - heights[index]\n            if climb <= 0:\n                continue\n            heapq.heappush(largest_climbs, climb)\n            if len(largest_climbs) > ladders:\n                bricks -= heapq.heappop(largest_climbs)\n                if bricks < 0:\n                    return index\n        return len(heights) - 1\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "furthest-building-you-can-reach",
+      "cases_passed": 6,
+      "code_sha256": "5b23fb2112ff581ec0aa0d6cb886654cb51e1c6d71a44f84734128c690b63c41",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-26T04:31:53.486829-05:00",
+    "topics": [
+      "Heaps"
+    ],
+    "solution_path": "Medium/furthest-building-you-can-reach.py"
   }
 ]
