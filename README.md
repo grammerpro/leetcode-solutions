@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**44 unique problems archived** · **16 day practice streak** · **44/261 catalog problems completed**
+**45 unique problems archived** · **17 day practice streak** · **45/261 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 2 |
+| Local tests passed | 3 |
 | LeetCode Accepted | 27 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -22,7 +22,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Difficulty | Problems |
 | :--- | ---: |
 | Easy | 24 |
-| Medium | 20 |
+| Medium | 21 |
 | Hard | 0 |
 
 | Topic | Problems |
@@ -40,15 +40,16 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Intervals | 2 |
 | Linked Lists | 2 |
 | Math | 2 |
+| Matrix | 2 |
 | Sliding Window | 2 |
 | Stacks | 2 |
 | Strings | 2 |
-| Matrix | 1 |
 
 ### Solution index
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [Game of Life](https://leetcode.com/problems/game-of-life/) | Medium | Matrix | Local tests passed | 2026-11-27 | [Source](Medium/game-of-life.py) |
 | [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) | Medium | Heaps | Local tests passed | 2026-11-26 | [Source](Medium/furthest-building-you-can-reach.py) |
 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | Linked Lists | Local tests passed | 2026-11-25 | [Source](Easy/convert-binary-number-in-a-linked-list-to-integer.py) |
 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | Sliding Window | LeetCode Accepted | 2026-11-24 | [Source](Easy/contains-duplicate-ii.py) |
@@ -94,5 +95,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-11-26. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-11-27. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->

@@ -890,5 +890,28 @@
       "Heaps"
     ],
     "solution_path": "Medium/furthest-building-you-can-reach.py"
+  },
+  {
+    "problem_id": "game-of-life",
+    "timestamp": "2026-11-27T04:41:20.087381-05:00",
+    "code_sha256": "2b74588e9d9aa5a3aafe6956468ac322c07fa686e08b3cd84e9149a05a5713db",
+    "title": "Game of Life",
+    "topic": "Matrix",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/game-of-life/",
+    "correct_code": "class Solution:\n    def gameOfLife(self, board: List[List[int]]) -> None:\n        rows, columns = len(board), len(board[0])\n        previous = [row[:] for row in board]\n        for row in range(rows):\n            for column in range(columns):\n                neighbors = 0\n                for near_row in range(max(0, row - 1), min(rows, row + 2)):\n                    for near_column in range(max(0, column - 1), min(columns, column + 2)):\n                        neighbors += previous[near_row][near_column]\n                neighbors -= previous[row][column]\n                if previous[row][column]:\n                    board[row][column] = 1 if neighbors in (2, 3) else 0\n                else:\n                    board[row][column] = 1 if neighbors == 3 else 0\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "game-of-life",
+      "cases_passed": 5,
+      "code_sha256": "2b74588e9d9aa5a3aafe6956468ac322c07fa686e08b3cd84e9149a05a5713db",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-27T04:41:20.087381-05:00",
+    "topics": [
+      "Matrix"
+    ],
+    "solution_path": "Medium/game-of-life.py"
   }
 ]
