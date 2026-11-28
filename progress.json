@@ -913,5 +913,28 @@
       "Matrix"
     ],
     "solution_path": "Medium/game-of-life.py"
+  },
+  {
+    "problem_id": "3sum",
+    "timestamp": "2026-11-28T03:55:38.029287-05:00",
+    "code_sha256": "7a8643bfa375bf0dfb8b9c3fd0de066c969fc19c0c9f9e99353adb739bd11b41",
+    "title": "3Sum",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "url": "https://leetcode.com/problems/3sum/",
+    "correct_code": "class Solution:\n    def threeSum(self, nums: List[int]) -> List[List[int]]:\n        nums = sorted(nums)\n        triplets = []\n        for first in range(len(nums) - 2):\n            if nums[first] > 0:\n                break\n            if first > 0 and nums[first] == nums[first - 1]:\n                continue\n            left, right = first + 1, len(nums) - 1\n            while left < right:\n                total = nums[first] + nums[left] + nums[right]\n                if total < 0:\n                    left += 1\n                elif total > 0:\n                    right -= 1\n                else:\n                    triplets.append([nums[first], nums[left], nums[right]])\n                    left += 1\n                    right -= 1\n                    while left < right and nums[left] == nums[left - 1]:\n                        left += 1\n        return triplets\n",
+    "validation": {
+      "status": "passed",
+      "problem_id": "3sum",
+      "cases_passed": 6,
+      "code_sha256": "7a8643bfa375bf0dfb8b9c3fd0de066c969fc19c0c9f9e99353adb739bd11b41",
+      "validator": "offline-v1"
+    },
+    "status": "locally_validated",
+    "first_completed_at": "2026-11-28T03:55:38.029287-05:00",
+    "topics": [
+      "Arrays"
+    ],
+    "solution_path": "Medium/3sum.py"
   }
 ]

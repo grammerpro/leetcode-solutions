@@ -7,12 +7,12 @@ Python solutions, organized by difficulty, with an honest record of practice and
 
 ![Progress dashboard](leetcode_stats.svg)
 
-**45 unique problems archived** · **17 day practice streak** · **45/261 catalog problems completed**
+**46 unique problems archived** · **18 day practice streak** · **46/261 catalog problems completed**
 
 | Evidence | Problems |
 | :--- | ---: |
 | Legacy (unverified) | 15 |
-| Local tests passed | 3 |
+| Local tests passed | 4 |
 | LeetCode Accepted | 27 |
 
 Local tests do not establish a LeetCode Accepted verdict. Legacy records lack preserved judge evidence. The streak counts the first recorded completion of each unique problem; it is a practice streak, not a LeetCode account streak.
@@ -22,14 +22,14 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | Difficulty | Problems |
 | :--- | ---: |
 | Easy | 24 |
-| Medium | 21 |
+| Medium | 22 |
 | Hard | 0 |
 
 | Topic | Problems |
 | :--- | ---: |
 | Trees | 8 |
 | Dynamic Programming | 7 |
-| Arrays | 2 |
+| Arrays | 3 |
 | Backtracking | 2 |
 | Binary Search | 2 |
 | Bit Manipulation | 2 |
@@ -49,6 +49,7 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 
 | Problem | Difficulty | Topics | Evidence | First completed | Python |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| [3Sum](https://leetcode.com/problems/3sum/) | Medium | Arrays | Local tests passed | 2026-11-28 | [Source](Medium/3sum.py) |
 | [Game of Life](https://leetcode.com/problems/game-of-life/) | Medium | Matrix | Local tests passed | 2026-11-27 | [Source](Medium/game-of-life.py) |
 | [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) | Medium | Heaps | Local tests passed | 2026-11-26 | [Source](Medium/furthest-building-you-can-reach.py) |
 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | Linked Lists | Local tests passed | 2026-11-25 | [Source](Easy/convert-binary-number-in-a-linked-list-to-integer.py) |
@@ -95,5 +96,5 @@ Local tests do not establish a LeetCode Accepted verdict. Legacy records lack pr
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | Dynamic Programming | Legacy (unverified) | 2026-05-22 | [Source](Easy/climbing-stairs.py) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | Trees | Legacy (unverified) | 2026-05-22 | [Source](Easy/invert-binary-tree.py) |
 
-Updated 2026-11-27. Progress is regenerated on each run from the durable [completion journal](progress.json).
+Updated 2026-11-28. Progress is regenerated on each run from the durable [completion journal](progress.json).
 <!-- leetcode-progress:end -->
